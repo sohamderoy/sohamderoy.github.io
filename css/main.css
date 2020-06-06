@@ -59,3 +59,6 @@ nav a:hover{
 .tagline{
     color: #6b6b6b;
 }
+.techicons:hover{
+    color: rgb(8, 120, 224);
+}
