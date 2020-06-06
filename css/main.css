@@ -89,11 +89,10 @@ h2 {
     display: inline-block;
 }
 .left{
-	background-color: #008c9e;
 	margin-right: 7px;
     height: 100px;
     width: 100px;
-	padding: auto;
+	padding: 0.5em 0em 0em 2em;
 	display: inline-block;
 	float: left;
 }
