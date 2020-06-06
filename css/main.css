@@ -75,9 +75,6 @@ h2 {
     padding: 0em 0em 0em 2em;
     font-weight: bold;
 }
-nav a:hover{
-    background-color: rgb(64, 128, 224);
-}
 .tagline{
     color: #6b6b6b;
 }
@@ -91,6 +88,14 @@ nav a:hover{
     padding: 0.5em 0em 0em 2em;
     display: inline-block;
 }
-.panda{
-    display: inline-block;
+.left{
+	background-color: #34eb77;
+	margin-right: 7px;
+    height: 90vh;
+	padding: auto;
+	display: inline-block;
+	float: left;
+}
+.right{
+	padding: auto;
 }
