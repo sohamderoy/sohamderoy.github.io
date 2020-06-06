@@ -37,6 +37,12 @@ li {
     overflow: hidden;
     background-color: #fff;
 }*/
+body {
+    margin: 0;
+    font: 19px/23px Montserrat,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 nav a{
     text-decoration: none;
     color: black;
