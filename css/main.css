@@ -17,7 +17,7 @@
     margin-top: 20px;
     font-size: 16px;
     cursor: pointer;
-}*/
+}
 .header li a{
     display: inline-block;
     padding: 20px;
@@ -36,4 +36,17 @@ li {
     list-style: none;
     overflow: hidden;
     background-color: #fff;
+}*/
+nav a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    background-color: white;
+    padding: 10px 50px;
+    margin: 10px 75px;
+    text-align: right;
+}
+nav a:hover{
+    opacity: 1;
+	text-shadow: #5f9ea0;
 }
