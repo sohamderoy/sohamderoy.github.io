@@ -90,9 +90,9 @@ h2 {
 }
 .left{
 	margin-right: 7px;
-    height: 100px;
-    width: 100px;
-	padding: 0.5em 0em 0em 2em;
+    height: 50%;
+    width: 50%;
+	padding: 0.5em 0em 0em 3em;
 	display: inline-block;
 	float: left;
 }
