@@ -89,13 +89,16 @@ h2 {
     display: inline-block;
 }
 .left{
-	background-color: #34eb77;
+	background-color: #008c9e;
 	margin-right: 7px;
-    height: 90vh;
+    height: 100px;
+    width: 100px;
 	padding: auto;
 	display: inline-block;
 	float: left;
 }
 .right{
-	padding: auto;
+    padding: auto;
+    display: inline-block;
+    float: right;
 }
