@@ -88,5 +88,9 @@ nav a:hover{
     padding: 0.5em 0em 0em 2em;
 }
 #intro{
-
+    padding: 0.5em 0em 0em 2em;
+    display: inline-block;
+}
+.panda{
+    display: inline-block;
 }
