@@ -39,7 +39,7 @@ li {
 }*/
 body {
     margin: 0;
-    font: 19px/23px Montserrat,sans-serif;
+    font-family: Montserrat,sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -51,6 +51,9 @@ nav a{
     padding: 10px 50px;
     margin: 10px 75px;
     text-align: left;
+}
+h1{
+    font-family: Montserrat,sans-serif;
 }
 nav a:hover{
     opacity: 1;
