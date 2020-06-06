@@ -44,9 +44,12 @@ nav a{
     background-color: white;
     padding: 10px 50px;
     margin: 10px 75px;
-    text-align: right;
+    text-align: left;
 }
 nav a:hover{
     opacity: 1;
 	text-shadow: #5f9ea0;
+}
+.tagline{
+    color: #a6a6a6;
 }
