@@ -89,14 +89,16 @@ section p{
     background-color: #55198b;
     border: 1px solid #55198b;
     color: #fff;
+    box-shadow: 14px -10px 20px 4px rgba(0,0,0,0.15);
     font-weight: 700;
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
-    padding: 13px 22px;
+    padding: 12px 22px;
     margin-right: 50px;
+    margin-left: 3.5em;
     text-transform: uppercase;
-    border-radius: 6px;
+    border-radius: 10px;
     text-align: center;
     text-decoration: none;
     display: block;
