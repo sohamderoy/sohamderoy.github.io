@@ -258,3 +258,6 @@ td, th {
 tr:nth-child(even) {
     background-color: #ffffff;
   }
+html{
+    scroll-behavior: smooth;
+}
