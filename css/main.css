@@ -41,7 +41,7 @@ h1{
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
-    padding: 0em 0em 0em 1em;
+    padding: 2em 0em 0em 1em;
     margin-inline-end: 0px;
     font-weight: bold;
     
@@ -65,9 +65,11 @@ h2 {
 .socialicons{
     padding: 0.5em 0em 0em 2.5em;
 }
-#intro{
-    padding: 0.5em 0em 0em 2em;
+section p{
+    padding: 0em 3em 0em 0em;
     display: inline-block;
+    color: rgb(75, 75, 75);
+    font-size: large;
 }
 .left{
 	margin-right: 7px;
@@ -82,7 +84,7 @@ h2 {
     display: inline-block;
     float: right;
 }
-.seemyresume{
+.cv{
     background-color: #55198b;
     border: 1px solid #55198b;
     color: #fff;
