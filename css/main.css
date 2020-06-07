@@ -29,7 +29,7 @@ nav a{
     color: black;
     display: inline-block;
     background-color: white;
-    padding: 20px 60px;
+    padding: 30px 60px 10px 60px;
     margin: 0px 100px 0px 100px;
     text-align: left;
     font-size: larger;
@@ -41,7 +41,7 @@ h1{
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
-    padding: 2em 0em 0em 1em;
+    padding: 2em 0em 0em 2em;
     margin-inline-end: 0px;
     font-weight: bold;
     
@@ -53,7 +53,7 @@ h2 {
     margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding: 0em 0em 0em 2em;
+    padding: 0em 0em 0em 4em;
     font-weight: bold;
 }
 .tagline{
@@ -66,10 +66,11 @@ h2 {
     padding: 0.5em 0em 0em 2.5em;
 }
 section p{
-    padding: 0em 3em 0em 0em;
+    padding: 0em 3em 0em 3em;
     display: inline-block;
     color: rgb(75, 75, 75);
     font-size: large;
+    line-height: 1.5;
 }
 .left{
 	margin-right: 7px;
