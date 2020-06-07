@@ -29,8 +29,11 @@ nav a{
     color: black;
     display: inline-block;
     background-color: white;
-    padding: 30px 60px 10px 60px;
-    margin: 0px 100px 0px 100px;
+    /*padding: 30px 60px 10px 60px;
+    margin: 0px 100px 0px 100px;*/
+    padding: 3% 4%;
+    float: right;
+    direction: rtl;
     text-align: left;
     font-size: larger;
 }
@@ -41,7 +44,7 @@ h1{
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
-    padding: 2em 0em 0em 2em;
+    padding: 3em 0em 0em 2em;
     margin-inline-end: 0px;
     font-weight: bold;
     
@@ -66,12 +69,14 @@ h2 {
     padding: 1em 0em 0em 5em;
 }
 .introsocialicons{
-    padding: 1em 0em 0em 3em;
+    padding: 1em 0em 0em 5.5em;
+    float: left;
 }
 .introduction{
-    padding: 0em 3em 0em 3em;
+    padding: 0.5em 0em 0em 5.5em;
     display: inline-block;
     color: rgb(75, 75, 75);
+    width: 40%;
     font-size: large;
     line-height: 1.5;
 }
@@ -99,13 +104,19 @@ h2 {
     width: max-content;
     padding: 12px 22px;
     margin-right: 50px;
-    margin-left: 3.5em;
+    margin-left: 10px;
     text-transform: uppercase;
     border-radius: 10px;
     text-align: center;
     text-decoration: none;
     display: block;
-    margin-top: 20px;
-    font-size: 16px;
+    margin-top: 1em;
+    font-size: 20px;
     cursor: pointer;
+}
+#panda{
+    float: right;
+    padding: 0em 7em 0em 0em;
+    width: 30% !important;
+    height: 30% !important;
 }
