@@ -1,23 +1,4 @@
 /*
-.seemyresume{
-    background-color: #55198b;
-    border: 1px solid #55198b;
-    color: #fff;
-    font-weight: 700;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-    padding: 13px 22px;
-    margin-right: 50px;
-    text-transform: uppercase;
-    border-radius: 6px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    margin-top: 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
 .header li a{
     display: inline-block;
     padding: 20px;
@@ -82,7 +63,7 @@ h2 {
     color: rgb(8, 120, 224);
 }
 .socialicons{
-    padding: 0.5em 0em 0em 2em;
+    padding: 0.5em 0em 0em 2.5em;
 }
 #intro{
     padding: 0.5em 0em 0em 2em;
@@ -102,9 +83,21 @@ h2 {
     float: right;
 }
 a.seemyresume{
-    background-color: rgb(9, 108, 255);
+    background-color: #55198b;
+    border: 1px solid #55198b;
+    color: #fff;
+    font-weight: 700;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 13px 22px;
+    margin-right: 50px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    text-align: center;
     text-decoration: none;
-    font-weight: bold;
-    color: white;
-    margin: 2em 2em;
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
