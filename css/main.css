@@ -65,6 +65,9 @@ h2 {
 .socialicons{
     padding: 1em 0em 0em 5em;
 }
+.introsocialicons{
+    padding: 1em 0em 0em 4em;
+}
 section p{
     padding: 0em 3em 0em 3em;
     display: inline-block;
