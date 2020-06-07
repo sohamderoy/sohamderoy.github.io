@@ -101,8 +101,10 @@ h2 {
     display: inline-block;
     float: right;
 }
-.seemyresume{
-    background-color: teal;
+a.seemyresume{
+    background-color: rgb(9, 108, 255);
     text-decoration: none;
     font-weight: bold;
+    color: white;
+    margin: 2em 2em;
 }
