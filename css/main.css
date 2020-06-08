@@ -132,6 +132,7 @@ h2 {
     float: right;
     padding: 0% 13% 0% 0%;
     max-width: 85% !important;
+    border-radius: 50%;
 }
 #workspace{
     padding: 4% 0% 0% 14%;
