@@ -125,6 +125,9 @@ h2 {
     font-size: 20px;
     cursor: pointer;
 }
+.cv:hover{
+    box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.25);
+}
 #panda{
     float: right;
     padding: 0% 13% 0% 0%;
@@ -174,6 +177,9 @@ p {
     font-size: 20px;
     cursor: pointer;
 
+}
+.certificationbutton:hover{
+    box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.25);
 }
 #python{
     color:#818181;
@@ -255,6 +261,10 @@ p {
     height: auto;
     margin: 0% 0% 0% 0%;
     box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.15);
+    cursor: pointer;
+}
+.sdrimg:hover{
+    box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.2);
 }
 .footer{
     font-weight: bold;
