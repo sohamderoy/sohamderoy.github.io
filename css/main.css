@@ -18,6 +18,9 @@ li {
     overflow: hidden;
     background-color: #fff;
 }*/
+html{
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     font-family: Montserrat,sans-serif;
@@ -50,7 +53,7 @@ h1{
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
-    padding: 0.5em 0em 0em 2em;
+    padding: 8.5% 0% 0% 14%;
     margin-inline-end: 0px;
     font-weight: bold;
     
@@ -62,7 +65,7 @@ h2 {
     margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding: 0em 0em 0em 4em;
+    padding: 0% 0% 0% 14%;
     font-weight: bold;
 }
 .tagline{
@@ -75,11 +78,11 @@ h2 {
     padding: 1em 0em 0em 5em;
 }
 .introsocialicons{
-    padding: 1em 0em 0em 5.5em;
+    padding: 3% 0% 0% 13.5%;
     float: left;
 }
 .introduction{
-    padding: 2em 0em 2em 5.5em;
+    padding: 5% 0% 2% 14.5%;
     display: inline-block;
     color: rgb(75, 75, 75);
     width: 40%;
@@ -124,13 +127,12 @@ h2 {
 #panda{
     float: right;
     padding: 0% 22% 0% 0%;
-    width: 60% !important;
-    height: 45% !important;
+    max-width: 60% !important;
 }
 #workspace{
     padding: 2% 0% 0% 14%;
-    width: 75% !important;
-    height: 40% !important;
+    max-width: 80% !important;
+
 }
 p {
     display: block;
@@ -147,7 +149,7 @@ p {
 .certifications{
     font-size: 40px;
     font-weight: bold;
-    padding: 1em 0em 0em 2em;
+    padding: 3.5% 0% 0% 7%;
 }
 .certificationbutton{
     background-color: #55198b;
@@ -160,7 +162,7 @@ p {
     width: max-content;
     padding: 12px 22px;
     margin-right: 50px;
-    margin-left: 4em;
+    margin-left: 7%;
     text-transform: uppercase;
     border-radius: 10px;
     text-align: center;
@@ -223,7 +225,7 @@ p {
 .connect{
     font-size: 40px;
     font-weight: bold;
-    padding: 1em 0em 0em 2em;
+    padding: 1% 0% 0% 17%;
 }
 .sdr{
     font-size: 40px;
@@ -258,6 +260,13 @@ td, th {
 tr:nth-child(even) {
     background-color: #ffffff;
   }
-html{
-    scroll-behavior: smooth;
+#lastupdatedon{
+    color: rgb(114, 114, 114);
+    font-weight: 700;
+    padding: 0% 0% 0% 7.5%;
+}
+.connectsocialicons{
+    padding: 3% 0% 0% 16%;
+    float: left;
+
 }
