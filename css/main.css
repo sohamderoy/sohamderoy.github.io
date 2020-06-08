@@ -292,7 +292,12 @@ tr:nth-child(even) {
 #lastupdatedon{
     color: rgb(114, 114, 114);
     font-weight: 700;
-    padding: 0% 0% 0% 7.5%;
+    padding: 0% 0% 0% 7%;
+}
+#location{
+    color: rgb(114, 114, 114);
+    font-weight: 700;
+    padding: 0% 0% 0% 7%;
 }
 .connectsocialicons{
     padding: 3% 0% 0% 15.5%;
