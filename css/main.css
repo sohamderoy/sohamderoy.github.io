@@ -149,7 +149,7 @@ p {
 .certifications{
     font-size: 40px;
     font-weight: bold;
-    padding: 0% 0% 1% 60%;
+    padding: 1% 0% 0% 0%;
     text-align: center !important;
 }
 .certificationbutton{
@@ -275,25 +275,24 @@ tr:nth-child(even) {
 
 }
 .certire{
-    float: top;
-    padding: 0% 0% 0% 0%;
-    max-width: 65% !important;
-    margin: 0% 0% 0% -2%;
+    float: none;
+    padding: 0% 0% 0% 31%;
+    max-width: 40% !important;
+    margin: 0% 0% 0% 0%;
     align-items: center;
+    display: block;
 }
 .credentials{
-    font-size: 300%;
     font-weight: bold;
     padding: 0% 0% 0% 25%;
     margin: 0% 0% 0% 0%;
 }
 .credentialsvalues{
     color: #727272;
-    font-size: 150%;
     padding: 0% 0% 0% 26%;
     margin: 0% 0% 0% 0%;
 
 }
 .creds{
-    line-height: 125%;
+    line-height: 2.5em
 }
