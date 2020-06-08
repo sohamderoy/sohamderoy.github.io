@@ -127,6 +127,9 @@ h2 {
 }
 .cv:hover{
     box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.25);
+    background-color: rgb(255, 255, 255);
+    color: rgb(44, 123, 241);
+    transition: all .75s ease;
 }
 #panda{
     float: right;
@@ -181,6 +184,9 @@ p {
 }
 .certificationbutton:hover{
     box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.25);
+    background-color: rgb(255, 255, 255);
+    color: rgb(44, 123, 241);
+    transition: all .75s ease;
 }
 #python{
     color:#818181;
@@ -265,7 +271,9 @@ p {
     cursor: pointer;
 }
 .sdrimg:hover{
-    box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.2);
+    box-shadow: 20px -10px 20px 4px rgba(0,0,0,0.15);
+    border: .4rem solid rgb(158, 39, 255);
+    transition: all 1s ease;
 }
 .footer{
     font-weight: bold;
