@@ -23,7 +23,7 @@ html{
 }
 body {
     margin: 0;
-    font-family: Montserrat,sans-serif;
+    font-family: "Product Sans", Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -47,7 +47,7 @@ nav a:hover{
     background-color: rgb(238, 239, 240);
 }
 h1{
-    font-family: Montserrat,sans-serif;
+    font-family: "Product Sans", Arial, sans-serif;
     display: block;
     font-size: 3em;
     margin-block-start: 0em;
@@ -80,6 +80,7 @@ h2 {
 .introsocialicons{
     padding: 3% 0% 0% 13.5%;
     float: left;
+    
 }
 .introduction{
     padding: 5% 0% 2% 14.5%;
@@ -104,8 +105,8 @@ h2 {
     float: right;
 }
 .cv{
-    background-color: #55198b;
-    border: 1px solid #55198b;
+    background-color: rgb(44, 123, 241);
+    border: 1px solid rgb(44, 123, 241);
     color: #fff;
     box-shadow: 14px -10px 20px 4px rgba(0,0,0,0.15);
     font-weight: 700;
@@ -153,8 +154,8 @@ p {
     text-align: center !important;
 }
 .certificationbutton{
-    background-color: #55198b;
-    border: 1px solid #55198b;
+    background-color: rgb(44, 123, 241);
+    border: 1px solid rgb(44, 123, 241);
     color: #fff;
     box-shadow: 14px -10px 20px 4px rgba(0,0,0,0.15);
     font-weight: 700;
@@ -194,6 +195,7 @@ p {
 #python:hover{
     cursor: pointer;
     color: rgb(44, 123, 241);
+    
 }
 #html:hover{
     cursor: pointer;
@@ -213,7 +215,7 @@ p {
     text-decoration: none;
     cursor: pointer;
     text-align: center !important;
-    color: black;
+    color: rgb(109, 109, 109);
     padding: 1em 0em 0em 0em;
     font-weight: bold;
 }
@@ -235,12 +237,13 @@ p {
 }
 .sdrimg{
     border-radius: 50%;
-    border: .5rem solid #6c63ff;
+    border: .4rem solid rgb(44, 123, 241);
     margin-left: auto;
     width: 50%;
     max-width: 350px;
     height: auto;
     margin: 0% 0% 0% 0%;
+    box-shadow: 14px -10px 20px 4px rgba(0,0,0,0.15);
 }
 .footer{
     font-weight: bold;
@@ -249,7 +252,7 @@ p {
     margin: 0% 0% 1% 0%;
 }
 table {
-    font-family: arial, sans-serif;
+    font-family: "Product Sans", Arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
     border-spacing: 0em !important;
@@ -270,7 +273,7 @@ tr:nth-child(even) {
     padding: 0% 0% 0% 7.5%;
 }
 .connectsocialicons{
-    padding: 3% 0% 0% 16%;
+    padding: 3% 0% 0% 15.5%;
     float: left;
 
 }
