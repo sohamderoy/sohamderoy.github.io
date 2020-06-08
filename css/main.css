@@ -291,12 +291,12 @@ tr:nth-child(even) {
   }
 #lastupdatedon{
     color: rgb(114, 114, 114);
-    font-weight: 700;
+    font-weight: 500;
     padding: 0% 0% 0% 7%;
 }
 #location{
     color: rgb(114, 114, 114);
-    font-weight: 700;
+    font-weight: 500;
     padding: 0% 0% 0% 7%;
 }
 .connectsocialicons{
