@@ -66,13 +66,13 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding: 0% 0% 0% 14%;
-    font-weight: bold;
+    font-weight: 500;
 }
 .tagline{
     color: #4c4c4c;
 }
 .techicons:hover{
-    color: rgb(8, 120, 224);
+    color: #4285F4;
 }
 .socialicons{
     padding: 1em 0em 0em 5em;
@@ -106,8 +106,8 @@ h2 {
     float: right;
 }
 .cv{
-    background-color: rgb(44, 123, 241);
-    border: 1px solid rgb(44, 123, 241);
+    background-color: #4285F4;
+    border: 1px solid #4285F4;
     color: #fff;
     box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.2);
     font-weight: 700;
@@ -129,7 +129,7 @@ h2 {
 .cv:hover{
     box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.25);
     background-color: rgb(255, 255, 255);
-    color: rgb(44, 123, 241);
+    color: #4285F4;
     transition: all .75s ease;
 }
 #panda{
@@ -151,19 +151,19 @@ p {
     margin-inline-end: 0px !important;
 }
 .skills{
-    font-size: 45px;
+    font-size: 50px;
     padding: 1% 0% 0% 7%;
     color: #4c4c4c;
 }
 .certifications{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
     padding: 1% 0% 0% 0%;
     text-align: center !important;
 }
 .certificationbutton{
-    background-color: rgb(44, 123, 241);
-    border: 1px solid rgb(44, 123, 241);
+    background-color: #4285F4;
+    border: 1px solid #4285F4;
     color: #fff;
     box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.2);
     font-weight: 700;
@@ -186,42 +186,42 @@ p {
 .certificationbutton:hover{
     box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.25);
     background-color: rgb(255, 255, 255);
-    color: rgb(44, 123, 241);
+    color: #4285F4;
     transition: all .75s ease;
 }
 #python{
-    color:#818181;
-    padding: 6.5% 0% 0% 8.5%;
+    color:#4c4c4c;
+    padding: 6.5% 0% 0% 14.5%;
 }
 #html{
-    color:#818181;
+    color:#4c4c4c;
     padding: 6.5% 0% 0% 8.5%;
 }
 #css{
-    color:#818181;
+    color:#4c4c4c;
     padding: 6.5% 0% 0% 8.5%;
 }
 #js{
-    color:#818181;
+    color:#4c4c4c;
     padding: 6.5% 0% 0% 8.5%;
 }
 
 #python:hover{
     cursor: pointer;
-    color: rgb(44, 123, 241);
+    color: #4285F4;
     
 }
 #html:hover{
     cursor: pointer;
-    color: rgb(44, 123, 241);
+    color: #4285F4;
 }
 #css:hover{
     cursor: pointer;
-    color: rgb(44, 123, 241);
+    color: #4285F4;
 }
 #js:hover{
     cursor: pointer;
-    color: rgb(44, 123, 241);
+    color: #4285F4;
 }
 .certipng{
 
@@ -253,6 +253,7 @@ p {
 .connect{
     font-size: 40px;
     padding: 1% 0% 0% 17%;
+    color: #4c4c4c;
 }
 .sdr{
     font-size: 40px;
@@ -261,7 +262,7 @@ p {
 }
 .sdrimg{
     border-radius: 50%;
-    border: .4rem solid rgb(44, 123, 241);
+    border: .4rem solid #4285F4;
     margin-left: auto;
     width: 50%;
     max-width: 350px;
@@ -323,6 +324,7 @@ tr:nth-child(even) {
 .credentials{
     padding: 0% 0% 0% 25%;
     margin: 0% 0% 0% 0%;
+    text-shadow: 0px 0px 20px rgb(114, 114, 114);
 }
 .credentialsvalues{
     color: #4c4c4c;
@@ -355,7 +357,7 @@ tr:nth-child(even) {
  .blockquote h1 {
      font-family: "Product Sans", Arial, sans-serif;
      position: relative; /* for pseudos */
-     color: rgb(44, 123, 241);
+     color: #4285F4;
      font-size: 205%;
      font-weight: normal;
      line-height: 1;
@@ -370,7 +372,7 @@ tr:nth-child(even) {
  .blockquote h1:after {
      content:"";
      position: absolute;
-     border: 2px solid rgb(44, 123, 241);
+     border: 2px solid #4285F4;
      border-radius: 0 50px 0 0;
      width: 60px;
      height: 60px;
@@ -415,7 +417,7 @@ tr:nth-child(even) {
  }
  .jobs{
     position: relative;
-    color: rgb(44, 123, 241);
+    color: #4285F4;
     font-size: 1.3rem;
     font-weight: 600;
     line-height: 1.2;
