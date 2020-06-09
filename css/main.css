@@ -53,7 +53,7 @@ h1{
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
-    padding: 8.5% 0% 0% 14%;
+    padding: 5.5% 0% 0% 14%;
     margin-inline-end: 0px;
     font-weight: bold;
     
@@ -83,12 +83,13 @@ h2 {
     
 }
 .introduction{
-    padding: 5% 0% 2% 14.5%;
+    padding: 3% 0% 0% 14.5%;
     display: inline-block;
     color: rgb(75, 75, 75);
     width: 40%;
-    font-size: large;
+    font-size: 20px;
     line-height: 1.5;
+
     width: 80%;
 }
 .left{
@@ -177,7 +178,7 @@ p {
     text-align: center;
     text-decoration: none;
     display: block;
-    margin-top: 1em;
+    margin-top: 2em;
     font-size: 20px;
     cursor: pointer;
 
@@ -230,7 +231,7 @@ p {
     box-shadow: 0px 10px 30px -15px rgba(0,0,0,0.2);
     cursor: pointer;
     border-radius: 10px;
-    margin: 7% 2% 9% 2%;
+    margin: 7% 2% 2% 2%;
     text-align: center !important;
     color: #868e96;
     padding: 1em 0em 1em 0em;
@@ -333,4 +334,114 @@ tr:nth-child(even) {
 }
 .creds{
     line-height: 2.5em
+}
+
+/* new */
+/* center the blockquote in the page */
+.blockquote-wrapper {
+    display: flex;
+    height: 10em;
+    padding: 0% 0% 0% 0%;
+ }
+ 
+ /* Blockquote main style */
+ .blockquote {
+     position: relative;
+     font-family: "Product Sans", Arial, sans-serif;
+     max-width: 620px;
+     margin: 80px auto;
+     align-self: center;
+ }
+ 
+ /* Blockquote header */
+ .blockquote h1 {
+     font-family: "Product Sans", Arial, sans-serif;
+     position: relative; /* for pseudos */
+     color: rgb(44, 123, 241);
+     font-size: 2.8rem;
+     font-weight: normal;
+     line-height: 1;
+     margin: 0;
+     border: 2px solid #fff;
+     border: solid 2px;
+     border-radius:20px;
+     padding: 25px;
+ }
+ 
+ /* Blockquote right double quotes */
+ .blockquote h1:after {
+     content:"";
+     position: absolute;
+     border: 2px solid rgb(44, 123, 241);
+     border-radius: 0 50px 0 0;
+     width: 60px;
+     height: 60px;
+     bottom: -62px;
+     left: 50px;
+     border-bottom: none;
+     border-left: none;
+     z-index: 3; 
+ }
+ 
+ .blockquote h1:before {
+     content:"";
+     position: absolute;
+     width: 80px;
+     border: 6px solid #ffffff;
+     bottom: -3px;
+     left: 50px;
+     z-index: 2;
+ }
+ 
+ /* increase header size after 600px */
+ @media all and (min-width: 600px) {
+     .blockquote h1 {
+         font-size: 3rem;
+         line-height: 0.5;
+    }
+ 
+ }
+ 
+ /* Blockquote subheader */
+ .blockquote h4 {
+     position: relative;
+     color: rgb(109, 109, 109);
+     font-size: 1.3rem;
+     font-weight: 600;
+     line-height: 1.2;
+     margin: 0;
+     padding-top: 15px;
+     z-index: 1;
+     margin-left:150px;
+     padding-left:12px;
+ }
+ .jobs{
+    position: relative;
+    color: rgb(44, 123, 241);
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0;
+    padding-top: 15px;
+    z-index: 1;
+    margin-left:150px;
+    padding-left:12px;
+ }
+  
+ .blockquote h4:first-letter {
+   margin-left:-12px;
+ }
+q{
+    font-family: "Product Sans", Arial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 1.25em;
+	color: #A32B68;
+	background: -webkit-linear-gradient(top, #fd0b58 0px, #a32b68 100%);
+	background: linear-gradient(top, #fd0b58 0px, #a32b68 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	&:before { content: ''; }
+    &:after { content: ''; }
 }
