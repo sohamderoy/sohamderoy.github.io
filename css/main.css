@@ -55,7 +55,7 @@ h1{
     margin-inline-start: 0px;
     padding: 5.5% 0% 0% 14%;
     margin-inline-end: 0px;
-    font-weight: bold;
+    font-weight: 500;
     
 }
 h2 {
@@ -69,7 +69,7 @@ h2 {
     font-weight: bold;
 }
 .tagline{
-    color: #6b6b6b;
+    color: #4c4c4c;
 }
 .techicons:hover{
     color: rgb(8, 120, 224);
@@ -139,7 +139,7 @@ h2 {
     border-radius: 50%;
 }
 #workspace{
-    padding: 4% 0% 0% 14%;
+    padding: 7% 0% 0% 14%;
     max-width: 80% !important;
 
 }
@@ -151,9 +151,9 @@ p {
     margin-inline-end: 0px !important;
 }
 .skills{
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 45px;
     padding: 1% 0% 0% 7%;
+    color: #4c4c4c;
 }
 .certifications{
     font-size: 40px;
@@ -252,7 +252,6 @@ p {
 }
 .connect{
     font-size: 40px;
-    font-weight: bold;
     padding: 1% 0% 0% 17%;
 }
 .sdr{
@@ -322,12 +321,11 @@ tr:nth-child(even) {
     display: block;
 }
 .credentials{
-    font-weight: bold;
     padding: 0% 0% 0% 25%;
     margin: 0% 0% 0% 0%;
 }
 .credentialsvalues{
-    color: #727272;
+    color: #4c4c4c;
     padding: 0% 0% 0% 26%;
     margin: 0% 0% 0% 0%;
 
@@ -358,7 +356,7 @@ tr:nth-child(even) {
      font-family: "Product Sans", Arial, sans-serif;
      position: relative; /* for pseudos */
      color: rgb(44, 123, 241);
-     font-size: 2.8rem;
+     font-size: 205%;
      font-weight: normal;
      line-height: 1;
      margin: 0;
@@ -396,7 +394,7 @@ tr:nth-child(even) {
  /* increase header size after 600px */
  @media all and (min-width: 600px) {
      .blockquote h1 {
-         font-size: 3rem;
+         font-size: 205%;
          line-height: 0.5;
     }
  
@@ -406,7 +404,7 @@ tr:nth-child(even) {
  .blockquote h4 {
      position: relative;
      color: rgb(109, 109, 109);
-     font-size: 1.3rem;
+     font-size: 115%;
      font-weight: 600;
      line-height: 1.2;
      margin: 0;
