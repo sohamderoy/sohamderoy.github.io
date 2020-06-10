@@ -133,12 +133,12 @@ p {
 }
 .skills{
     font-size: 50px;
-    padding: 1% 0% 0% 7%;
+    padding: 0% 0% 7% 22%;
     color: #4c4c4c;
 }
 .certifications{
     font-size: 50px;
-    padding: 1% 0% 0% 0%;
+    padding: 1% 0% 1% 0%;
     text-align: center !important;
     color: #4c4c4c;
 }
@@ -245,7 +245,7 @@ p {
     border-radius: 50%;
     border: .4rem solid #4285F4;
     margin-left: auto;
-    width: 50%;
+    width: 145px;
     max-width: 350px;
     height: auto;
     margin: 0% 0% 0% 5%;
@@ -442,4 +442,71 @@ q{
     font-weight: 500;
     cursor: pointer;
     text-decoration: none;
+}
+
+
+/**/
+.dev-icons {
+    padding-left: 0;
+    list-style: none;
+    font-size: 450%;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.software-skill-inline {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.software-skill-inline>i:hover {
+    color: #4285F4
+}
+.software-skill-inline>i {
+    color: #8c8c8c;
+}
+.fab, .far {
+    font-weight: 400;
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+i {
+    font-style: italic;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+.fa-html5:before {
+    content: "\f13b";
+}
+.devname{
+    font-size: 15px;
+    color: #4c4c4c;
+}
+.skillbadge:hover{
+    color: #4285F4;
 }
