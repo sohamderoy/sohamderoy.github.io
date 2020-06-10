@@ -257,10 +257,11 @@ p {
     transition: all 1s ease;
 }
 .footer{
-    font-weight: bold;
     text-align: center !important;
     padding: 1% 0% 0% 0%;
     margin: 0% 0% 1% 0%;
+    color: #4c4c4c;
+
 }
 table {
     font-family: "Product Sans", Arial, sans-serif;
