@@ -247,7 +247,7 @@ p {
     width: 50%;
     max-width: 350px;
     height: auto;
-    margin: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 5%;
     box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.15);
     cursor: pointer;
 }
@@ -271,7 +271,7 @@ table {
     border-spacing: 0em !important;
   }
 td, th {
-    border: 0px solid #4c4c4c;
+    border: 1px solid #4c4c4c;
     text-align: left;
     align-items: center;
     
@@ -306,12 +306,12 @@ tr:nth-child(even) {
     display: block;
 }
 .credentials{
-    padding: 0% 0% 0% 25%;
+    padding: 0% 0% 0% 35%;
     margin: 0% 0% 0% 0%;
 }
 .credentialsvalues{
     color: #4c4c4c;
-    padding: 0% 0% 0% 26%;
+    padding: 0% 0% 0% 36%;
     margin: 0% 0% 0% 0%;
 
 }
