@@ -285,6 +285,7 @@ tr:nth-child(even) {
     font-weight: 500;
     padding: 0% 0% 0% 7%;
     opacity: 0.65;
+    font-size: smaller;
 }
 #location{
     color: #4c4c4c;
@@ -433,6 +434,7 @@ q{
     font-weight: 500;
     padding: 0% 0% 0% 7%;
     opacity: 0.65;
+    font-size: smaller;
 }
 .mit{
     color: #4c4c4c;
