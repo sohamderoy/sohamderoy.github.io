@@ -53,7 +53,7 @@ h2 {
     color: #4c4c4c;
 }
 .techicons:hover{
-    color: #4285F4;
+    color: #045DE9;
 }
 .socialicons{
     padding: 1em 0em 0em 5em;
@@ -87,15 +87,15 @@ h2 {
     float: right;
 }
 .cv{
-    background-color: #4285F4;
-    border: 1px solid #4285F4;
+    background-color: #045DE9;
+    border: 1px solid #045DE9;
     color: #ffffff;
     box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.2);
     font-weight: 700;
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
-    padding: 12px 22px;
+    padding: 12px 24px;
     margin-right: 50px;
     margin-left: 10px;
     text-transform: uppercase;
@@ -110,7 +110,7 @@ h2 {
 .cv:hover{
     box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.25);
     background-color: rgb(255, 255, 255);
-    color: #4285F4;
+    color: #045DE9;
     transition: all .75s ease;
 }
 #panda{
@@ -133,26 +133,25 @@ p {
 }
 .skills{
     font-size: 50px;
-    padding: 0% 0% 8% 21% !important;
-    /*padding: 0px 33px 46px 397px;*/
+    padding: 0% 0% 7% 20%;
     color: #4c4c4c;
 }
 .certifications{
     font-size: 50px;
-    padding: 1% 0% 1% 0%;
+    padding: 4% 0% 0% 0%;
     text-align: center !important;
     color: #4c4c4c;
 }
 .certificationbutton{
-    background-color: #4285F4;
-    border: 1px solid #4285F4;
+    background-color: #045DE9;
+    border: 1px solid #045DE9;
     color: #fff;
     box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.2);
     font-weight: 700;
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
-    padding: 12px 22px;
+    padding: 12px 24px;
     margin-right: 50px;
     margin-left: 7%;
     text-transform: uppercase;
@@ -161,6 +160,7 @@ p {
     text-decoration: none;
     display: block;
     margin-top: 2em;
+    margin-bottom: 2em;
     font-size: 20px;
     cursor: pointer;
 
@@ -168,9 +168,10 @@ p {
 .certificationbutton:hover{
     box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.25);
     background-color: rgb(255, 255, 255);
-    color: #4285F4;
+    color: #045DE9;
     transition: all .75s ease;
 }
+/*
 #python{
     color:#4c4c4c;
     padding: 6.5% 0% 0% 8.5%;
@@ -204,7 +205,7 @@ p {
 #js:hover{
     cursor: pointer;
     color: #4285F4;
-}
+}*/
 .certipng{
 
     display: inline-block;
@@ -221,6 +222,7 @@ p {
     line-height: 1.15em;
     border: 1px solid hsla(0,0%,82.7%,.397);
     font-size: 18px;
+    background-color: #f7f7f7;
 
 }
 .certipng:hover{
@@ -244,7 +246,7 @@ p {
 }
 .sdrimg{
     border-radius: 50%;
-    border: .4rem solid #4285F4;
+    border: .4rem solid #045DE9;
     margin-left: auto;
     width: 145px;
     max-width: 350px;
@@ -255,7 +257,7 @@ p {
 }
 .sdrimg:hover{
     box-shadow: 20px -10px 20px 4px rgba(0,0,0,0.15);
-    border: .4rem solid rgb(158, 39, 255);
+    border: .4rem solid #09C6F9;
     transition: all 1s ease;
 }
 .footer{
@@ -343,7 +345,7 @@ tr:nth-child(even) {
  .blockquote h1 {
      font-family: "Product Sans", Arial, sans-serif;
      position: relative; /* for pseudos */
-     color: #4285F4;
+     color: #045DE9;
      font-size: 205%;
      font-weight: normal;
      line-height: 1;
@@ -358,7 +360,7 @@ tr:nth-child(even) {
  .blockquote h1:after {
      content:"";
      position: absolute;
-     border: 2px solid #4285F4;
+     border: 2px solid #045DE9;
      border-radius: 0 50px 0 0;
      width: 60px;
      height: 60px;
@@ -403,7 +405,7 @@ tr:nth-child(even) {
  }
  .jobs{
     position: relative;
-    color: #4285F4;
+    color: #045DE9;
     font-size: 1.3rem;
     font-weight: 600;
     line-height: 1.2;
@@ -417,15 +419,16 @@ tr:nth-child(even) {
  .blockquote h4:first-letter {
    margin-left:-12px;
  }
+ /*See https://www.eggradients.com/category/blue-gradient for more gradiance ideas*/
 q{
     font-family: "Product Sans", Arial, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 20px;
 	line-height: 1.25em;
-	color: #A32B68;
-	background: -webkit-linear-gradient(top, #fd0b58 0px, #a32b68 100%);
-	background: linear-gradient(top, #fd0b58 0px, #a32b68 100%);
+    color: #045DE9;
+	background: -webkit-linear-gradient(top, #09C6F9  0px, #045DE9 100%);
+	background: linear-gradient(top, #09C6F9  0px, #045DE9 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 	&:before { content: ''; }
@@ -445,69 +448,178 @@ q{
     text-decoration: none;
 }
 
-
-/**/
 .dev-icons {
     padding-left: 0;
     list-style: none;
-    font-size: 450%;
-    margin-bottom: 0;
-    margin-top: 0;
+    font-size: 5rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
     text-align: center;
-}
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-
-.software-skill-inline {
+  }
+  
+  .software-skill-inline {
     display: inline-block;
     margin-right: 20px;
     margin-bottom: 20px;
-}
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-.software-skill-inline>i:hover {
-    color: #4285F4
-}
-.software-skill-inline>i {
+  }
+  
+  .software-skill-inline > i {
     color: #8c8c8c;
-}
-.fab, .far {
-    font-weight: 400;
-}
-.fab {
-    font-family: "Font Awesome 5 Brands";
-}
-.fa, .fab, .fad, .fal, .far, .fas {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-}
-i {
-    font-style: italic;
-}
-li {
-    text-align: -webkit-match-parent;
-}
-.fa-html5:before {
-    content: "\f13b";
-}
-.devname{
-    font-size: 15px;
+  }
+  
+  .software-skill-inline > i:hover {
+    color: #045DE9;
+	background: -webkit-linear-gradient(top, #09C6F9  0px, #045DE9 100%);
+	background: linear-gradient(top, #09C6F9  0px, #045DE9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 1s ease;
+  }
+  .software-skill-inline > p {
+    color: #8c8c8c;
+    font-size: 10px;
+  }
+  .software-skill-inline > i:hover ~ p{
+    color: #045DE9;
+	background: -webkit-linear-gradient(top, #09C6F9  0px, #045DE9 100%);
+	background: linear-gradient(top, #09C6F9  0px, #045DE9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 1s ease;
+  }
+  .projects{
+    font-size: 50px;
+    padding: 1% 0% 1% 0%;
+    text-align: left !important;
     color: #4c4c4c;
+    padding-left: 2em;
 }
-.skillbadge:hover{
-    color: #4285F4;
+.projectsrepo{
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    box-shadow: 0px 10px 30px -15px rgba(0,0,0,0.2);
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 7% 2% 2% 2%;
+    text-align: center !important;
+    color: #4c4c4c;
+    padding: 1em 0em 1em 0em;
+    font-weight: 600;
+    line-height: 1.15em;
+    border: 1px solid hsla(0,0%,82.7%,.397);
+    font-size: 18px;
+}
+.repo-card-div {
+    color: #8c8c8c;
+    background-color: #f7f7f7;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+    padding: 3% 3% 4% 3%;
+    margin: 2% 9% 2% 14%;
+    cursor: pointer;
+    border: 1px solid hsla(0,0%,82.7%,.397);
+    border-radius: 10px;
+  }
+  .repo-card-div:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  }
+  
+  .repo-stats {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #8c8c8c;
+    padding-top: 0.5em;
+  }
+  
+  .repo-left-stat {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    display: flex;
+  }
+  
+  .language-color {
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    margin-right: 0.25rem;
+    border-radius: 100%;
+  }
+  
+  .repo-left-stat span {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 0.75rem;
+  }
+  
+  .repo-name-div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .repo-svg {
+    margin-right: 0.5rem;
+    min-width: 16px;
+    padding-bottom: 0.5em;
+  }
+  
+  .repo-name {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: rgb(36, 41, 46);
+    margin-bottom: 0.75rem;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    overflow: hidden;
+    margin: 0px;
+    padding-bottom: 0.5em;
+    text-decoration: none;
+  }
+  .repo-name:hover{
+    color: #045DE9;
+	background: -webkit-linear-gradient(top, #09C6F9  0px, #045DE9 100%);
+	background: linear-gradient(top, #09C6F9  0px, #045DE9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 1s ease;
+  }
+  
+  .repo-star-svg {
+    margin-right: 0.3rem;
+  }
+  
+  .repo-description {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: larger;
+  }
+  #project2{
+      margin-left: 0px;
+  }
+  .projectsbutton{
+    background-color: #045DE9;
+    border: 1px solid #045DE9;
+    color: #fff;
+    box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.2);
+    font-weight: 700;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 12px 24px;
+    margin-right: 50px;
+    margin-left: 7%;
+    text-transform: uppercase;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 1em;
+    font-size: 20px;
+    cursor: pointer;
+
 }
