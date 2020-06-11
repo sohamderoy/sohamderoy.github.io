@@ -133,8 +133,9 @@ p {
 }
 .skills{
     font-size: 50px;
-    padding: 0% 0% 7% 20%;
+    padding: 0% 0% 7% 0%;
     color: #4c4c4c;
+    text-align: center;
 }
 .certifications{
     font-size: 50px;
@@ -489,8 +490,7 @@ q{
   }
   .projects{
     font-size: 50px;
-    padding: 1% 0% 1% 0%;
-    text-align: left !important;
+    padding: 5% 0% 1% 0%;
     color: #4c4c4c;
     padding-left: 2em;
 }
