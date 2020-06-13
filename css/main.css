@@ -15,13 +15,13 @@ nav a{
     background-color: white;
     /*padding: 30px 60px 10px 60px;
     margin: 0px 100px 0px 100px;*/
-    padding: 4% 3% 0% 0%;
+    padding: 2% 4%;
     float: right;
     direction: rtl;
     text-align: left;
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: bold;
     cursor: pointer;
-    color: #4c4c4c;
 }
 nav a:hover{
     opacity: 0.85;
@@ -34,7 +34,7 @@ h1{
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
-    padding: 5% 0% 0% 14%;
+    padding: 5.5% 0% 0% 14%;
     margin-inline-end: 0px;
     font-weight: 500;
     
