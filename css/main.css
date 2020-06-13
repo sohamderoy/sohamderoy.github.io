@@ -189,7 +189,6 @@ p {
     color:#4c4c4c;
     padding: 6.5% 0% 0% 8.5%;
 }
-
 #python:hover{
     cursor: pointer;
     color: #4285F4;
@@ -288,7 +287,7 @@ tr:nth-child(even) {
 #lastupdatedon{
     color: #4c4c4c;
     font-weight: 500;
-    padding: 2% 0% 0% 7%;
+    padding: 0% 0% 0% 7%;
     opacity: 0.65;
     font-size: smaller;
 }
