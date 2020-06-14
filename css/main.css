@@ -15,14 +15,14 @@ nav a{
     background-color: white;
     /*padding: 30px 60px 10px 60px;
     margin: 0px 100px 0px 100px;*/
-    padding: 0.5% 2%;
+    padding: 1% 2%;
     float: right;
     direction: rtl;
     text-align: left;
     font-size: 18px;
     cursor: pointer;
     color: #8c8c8c;
-    margin: 3.5% 0%;
+    margin: 3% 0%;
 }
 nav a:hover{
     opacity: 1;
