@@ -36,9 +36,9 @@ h1{
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
-    padding: 2% 0% 0% 14%;
+    padding: 7% 0% 0% 14%;
     margin-inline-end: 0px;
-    font-weight: 500;
+    font-weight: bold;
     
 }
 h2 {
@@ -48,8 +48,16 @@ h2 {
     margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding: 0% 0% 0% 14%;
+    padding: 4% 0% 0% 14%;
+    font-weight: bold;
+    opacity: 0.75;
+}
+.discuss{
     font-weight: 500;
+    padding: 0% 0% 4% 0%;
+    opacity: 0.85;
+    font-size: 20px;
+    color: #4c4c4c;
 }
 .tagline{
     color: #4c4c4c;
@@ -68,11 +76,10 @@ h2 {
 .introduction{
     padding: 3% 0% 0% 14.5%;
     display: inline-block;
-    color: #4c4c4c;
+    color: #6d6d6d;
     width: 40%;
-    font-size: 20px;
-    line-height: 1.5;
-
+    font-size: 22px;
+    line-height: 40px;
     width: 80%;
 }
 .left{
@@ -122,7 +129,7 @@ h2 {
     border-radius: 50%;
 }
 #workspace{
-    padding: 7% 0% 0% 14%;
+    padding: 10% 0% 0% 14%;
     max-width: 80% !important;
 
 }
