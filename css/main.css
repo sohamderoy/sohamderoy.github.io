@@ -26,7 +26,8 @@ nav a{
 }
 nav a:hover{
     opacity: 1;
-    background-color: rgb(238, 239, 240);
+    background-color: aliceblue;
+    border-radius: 25px;
 }
 h1{
     font-family: "Product Sans", Arial, sans-serif;
@@ -35,7 +36,7 @@ h1{
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
-    padding: 3% 0% 0% 14%;
+    padding: 2% 0% 0% 14%;
     margin-inline-end: 0px;
     font-weight: 500;
     
@@ -252,7 +253,7 @@ p {
     width: 145px;
     max-width: 350px;
     height: auto;
-    margin: 0% 0% 0% 5%;
+    margin: 0% 0% 8% 5%;
     box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.15);
     cursor: pointer;
 }
@@ -263,8 +264,7 @@ p {
 }
 .footer{
     text-align: center !important;
-    padding: 1% 0% 0% 0%;
-    margin: 0% 0% 1% 0%;
+    padding: 1% 0% 1% 0%;
     color: #4c4c4c;
     opacity: 0.65;
 
@@ -288,7 +288,7 @@ tr:nth-child(even) {
 #lastupdatedon{
     color: #4c4c4c;
     font-weight: 500;
-    padding: 2% 0% 0% 7%;
+    padding: 1% 0% 0% 7%;
     opacity: 0.65;
     font-size: smaller;
 }
@@ -622,4 +622,7 @@ q{
     font-size: 20px;
     cursor: pointer;
 
+}
+.foot{
+    background-color: aliceblue;
 }
