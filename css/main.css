@@ -260,7 +260,7 @@ p {
     width: 145px;
     max-width: 350px;
     height: auto;
-    margin: 0% 0% 8% 5%;
+    margin: 0% 0% 6% 0%;
     box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.15);
     cursor: pointer;
 }
