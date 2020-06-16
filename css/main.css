@@ -26,7 +26,7 @@ nav a{
 }
 nav a:hover{
     opacity: 1;
-    background-color: aliceblue;
+    background-color: #3155dc1a;
     border-radius: 25px;
 }
 h1{
@@ -63,7 +63,7 @@ h2 {
     color: #4c4c4c;
 }
 .techicons:hover{
-    color: #045DE9;
+    color: #3155dc;
 }
 .socialicons{
     padding: 1em 0em 0em 5em;
@@ -96,10 +96,10 @@ h2 {
     float: right;
 }
 .cv{
-    background-color: #045DE9;
-    border: 1px solid #045DE9;
+    background: linear-gradient(-213deg, #5e31dc 0%, #3155dc 100%) right center / contain no-repeat, left center #3155dc;
+    border: 1px solid #3155dc;
     color: #ffffff;
-    box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.2);
+    box-shadow: -14px 6px 15px 5px rgba(0,0,0,0.2);
     font-weight: 700;
     width: -webkit-max-content;
     width: -moz-max-content;
@@ -117,9 +117,9 @@ h2 {
     cursor: pointer;
 }
 .cv:hover{
-    box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.25);
-    background-color: rgb(255, 255, 255);
-    color: #045DE9;
+    box-shadow: -14px 6px 15px 5px rgba(0,0,0,0.2);
+    background: linear-gradient(-213deg, #ffffff 0%, #ffffff 100%) right center / contain no-repeat, left center #ffffff;
+    color: #3155dc;
     transition: all .75s ease;
 }
 #panda{
@@ -131,6 +131,7 @@ h2 {
 #workspace{
     padding: 10% 0% 0% 14%;
     max-width: 80% !important;
+    border-radius: 50%;
 
 }
 p {
@@ -153,10 +154,10 @@ p {
     color: #4c4c4c;
 }
 .certificationbutton{
-    background-color: #045DE9;
-    border: 1px solid #045DE9;
+    background: linear-gradient(-213deg, #5e31dc 0%, #3155dc 100%) right center / contain no-repeat, left center #3155dc;
+    border: 1px solid #3155dc;
     color: #fff;
-    box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.2);
+    box-shadow: -14px 6px 15px 5px rgba(0,0,0,0.2);
     font-weight: 700;
     width: -webkit-max-content;
     width: -moz-max-content;
@@ -176,9 +177,9 @@ p {
 
 }
 .certificationbutton:hover{
-    box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.25);
-    background-color: rgb(255, 255, 255);
-    color: #045DE9;
+    box-shadow: -14px 6px 15px 5px rgba(0,0,0,0.2);
+    background: linear-gradient(-213deg, #ffffff 0%, #ffffff 100%) right center / contain no-repeat, left center #ffffff;
+    color: #3155dc;
     transition: all .75s ease;
 }
 /*
@@ -255,18 +256,19 @@ p {
 }
 .sdrimg{
     border-radius: 50%;
-    border: .4rem solid #045DE9;
+    border: .4rem solid #3155dc;
+    
     margin-left: auto;
     width: 145px;
     max-width: 350px;
     height: auto;
-    margin: 0% 0% 6% 0%;
+    margin: 0% 0% 8% 5%;
     box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.15);
     cursor: pointer;
 }
 .sdrimg:hover{
     box-shadow: 20px -10px 20px 4px rgba(0,0,0,0.15);
-    border: .4rem solid #09C6F9;
+    border: .4rem solid #5e31dc;
     transition: all 1s ease;
 }
 .footer{
@@ -353,7 +355,7 @@ tr:nth-child(even) {
  .blockquote h1 {
      font-family: "Product Sans", Arial, sans-serif;
      position: relative; /* for pseudos */
-     color: #045DE9;
+     color: #3155dc;
      font-size: 205%;
      font-weight: normal;
      line-height: 1;
@@ -368,7 +370,7 @@ tr:nth-child(even) {
  .blockquote h1:after {
      content:"";
      position: absolute;
-     border: 2px solid #045DE9;
+     /*border: 2px solid #045DE9;*/
      border-radius: 0 50px 0 0;
      width: 60px;
      height: 60px;
@@ -383,7 +385,7 @@ tr:nth-child(even) {
      content:"";
      position: absolute;
      width: 80px;
-     border: 6px solid #ffffff;
+     /*border: 6px solid #ffffff;*/
      bottom: -3px;
      left: 50px;
      z-index: 2;
@@ -413,7 +415,7 @@ tr:nth-child(even) {
  }
  .jobs{
     position: relative;
-    color: #045DE9;
+    color: #3155dc;
     font-size: 1.3rem;
     font-weight: 600;
     line-height: 1.2;
@@ -425,7 +427,7 @@ tr:nth-child(even) {
  }
   
  .blockquote h4:first-letter {
-   margin-left:-12px;
+   margin-left: 112px;
  }
  /*See https://www.eggradients.com/category/blue-gradient for more gradiance ideas*/
 q{
@@ -434,9 +436,9 @@ q{
 	font-style: normal;
 	font-size: 20px;
 	line-height: 1.25em;
-    color: #045DE9;
-	background: -webkit-linear-gradient(top, #09C6F9  0px, #045DE9 100%);
-	background: linear-gradient(top, #09C6F9  0px, #045DE9 100%);
+    color: #3155dc;
+	background: -webkit-linear-gradient(top, #5e31dc  0px, #3155dc 100%);
+	background: linear-gradient(top, #5e31dc  0px, #3155dc 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 	&:before { content: ''; }
@@ -476,9 +478,9 @@ q{
   }
   
   .software-skill-inline > i:hover {
-    color: #045DE9;
-	background: -webkit-linear-gradient(top, #09C6F9  0px, #045DE9 100%);
-	background: linear-gradient(top, #09C6F9  0px, #045DE9 100%);
+    color: #3155dc;
+	background: linear-gradient(-213deg, #5e31dc 0%, #3155dc 100%) right center / contain no-repeat, left center #3155dc;
+	background: linear-gradient(-213deg, #5e31dc 0%, #3155dc 100%) right center / contain no-repeat, left center #3155dc;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 1s ease;
@@ -488,9 +490,9 @@ q{
     font-size: 10px;
   }
   .software-skill-inline > i:hover ~ p{
-    color: #045DE9;
-	background: -webkit-linear-gradient(top, #09C6F9  0px, #045DE9 100%);
-	background: linear-gradient(top, #09C6F9  0px, #045DE9 100%);
+    color: #3155dc;
+	background: -webkit-linear-gradient(top, #5e31dc  0px, #3155dc 100%);
+	background: linear-gradient(top, #5e31dc  0px, #3155dc 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 1s ease;
@@ -549,7 +551,7 @@ q{
   .language-color {
     width: 10px;
     height: 10px;
-    background-color: blue;
+    background-color: #3155dc;
     margin-right: 0.25rem;
     border-radius: 100%;
   }
@@ -586,9 +588,9 @@ q{
     text-decoration: none;
   }
   .repo-name:hover{
-    color: #045DE9;
-	background: -webkit-linear-gradient(top, #09C6F9  0px, #045DE9 100%);
-	background: linear-gradient(top, #09C6F9  0px, #045DE9 100%);
+    color: #3155dc;
+	background: -webkit-linear-gradient(top, #5e31dc  0px, #3155dc 100%);
+	background: linear-gradient(top, #5e31dc  0px, #3155dc 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 1s ease;
@@ -609,10 +611,10 @@ q{
       margin-left: 0px;
   }
   .projectsbutton{
-    background-color: #045DE9;
-    border: 1px solid #045DE9;
+    background: linear-gradient(-213deg, #5e31dc 0%, #3155dc 100%) right center / contain no-repeat, left center #3155dc;
+    border: 1px solid #3155dc;
     color: #fff;
-    box-shadow: -20px 10px 20px 4px rgba(0,0,0,0.2);
+    box-shadow: -14px 6px 15px 5px rgba(0,0,0,0.2);
     font-weight: 700;
     width: -webkit-max-content;
     width: -moz-max-content;
@@ -630,6 +632,15 @@ q{
     cursor: pointer;
 
 }
+.projectsbutton:hover{
+    box-shadow: -14px 6px 15px 5px rgba(0,0,0,0.2);
+    background: linear-gradient(-213deg, #ffffff 0%, #ffffff 100%) right center / contain no-repeat, left center #ffffff;
+    color: #3155dc;
+    transition: all .75s ease;
+}
 .foot{
-    background-color: aliceblue;
+    background-color: #3155dc1a;
+}
+header {
+    display: block;
 }
