@@ -694,6 +694,7 @@ header {
     transition: all 1s ease;
   }
   .repo-description-blog {
+    color: #4c4c4c;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 2;
