@@ -747,3 +747,34 @@ header {
     color: #3155dc;
     transition: all .75s ease;
 }
+@media all and (min-width: 600px) {
+    .blogsbutton{
+        background: linear-gradient(-213deg, #5e31dc 0%, #3155dc 100%) right center / contain no-repeat, left center #3155dc;
+        border: 1px solid #3155dc;
+        color: #fff;
+        box-shadow: -14px 6px 15px 5px rgba(0,0,0,0.2);
+        font-weight: 700;
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+        padding: 12px 24px;
+        margin-right: 50px;
+        margin-left: 7%;
+        text-transform: uppercase;
+        border-radius: 25px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        margin-top: 1em;
+        font-size: 20px;
+        cursor: pointer;
+    
+    }
+}
+@media all and (min-width: 600px) {
+    .blogsbutton:hover{
+        box-shadow: -14px 6px 15px 5px rgba(0,0,0,0.2);
+        background: linear-gradient(-213deg, #ffffff 0%, #ffffff 100%) right center / contain no-repeat, left center #ffffff;
+        color: #3155dc;
+        transition: all .75s ease;
+}
