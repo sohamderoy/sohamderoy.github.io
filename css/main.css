@@ -644,3 +644,9 @@ q{
 header {
     display: block;
 }
+.blogs{
+    font-size: 50px;
+    padding: 3% 0% 1% 0%;
+    color: #4c4c4c;
+    padding-left: 2em;
+}
