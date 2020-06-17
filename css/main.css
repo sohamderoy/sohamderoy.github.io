@@ -650,3 +650,73 @@ header {
     color: #4c4c4c;
     padding-left: 2em;
 }
+.repo-card-div-blog {
+    color: #8c8c8c;
+    background-color: #f7f7f7;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+    padding: 3% 3% 4% 3%;
+    margin: 2% 8% 2% 14%;
+    cursor: pointer;
+    border: 1px solid hsla(0,0%,82.7%,.397);
+    border-radius: 10px;
+  }
+  .repo-card-div-blog:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  }
+  .repo-name-div-blog {
+    display: flex;
+    align-items: center;
+  }
+  .repo-svg-blog {
+    margin-right: 0.5rem;
+    min-width: 16px;
+    padding-bottom: 0.5em;
+  }
+  .repo-name-quora {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: rgb(36, 41, 46);
+    margin-bottom: 0.75rem;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    overflow: hidden;
+    margin: 0px;
+    padding-bottom: 0.5em;
+    text-decoration: none;
+  }
+  .repo-name-quora:hover{
+    color: #b92b27;
+    background: -webkit-linear-gradient(top, #b92b27  0px, #b92b27 100%);
+	background: linear-gradient(top, #b92b27  0px, #b92b27 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 1s ease;
+  }
+  .repo-description-blog {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: larger;
+  }
+  .repo-stats-blog {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #8c8c8c;
+    padding-top: 0.5em;
+  }
+  .repo-left-stat-blog {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    display: flex;
+  }
+  .repo-left-stat-blog span {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 0.75rem;
+  }
+  
