@@ -139,6 +139,21 @@ h2 {
     max-width: 80% !important;
 
 }
+#projectpic{
+    padding: 10% 0% 0% 5%;
+    max-width: 55% !important;
+
+}
+#certificatepic{
+    padding: 10% 0% 0% 40%;
+    max-width: 55% !important;
+
+}
+#blogpic{
+    padding: 5% 0% 0% 3%;
+    max-width: 55% !important;
+
+}
 p {
     display: block;
     margin-block-start: 0em !important;
@@ -154,7 +169,7 @@ p {
 }
 .certifications{
     font-size: 50px;
-    padding: 4% 0% 0% 0%;
+    padding: 5% 45% 0% 0%;
     text-align: center !important;
     color: #4c4c4c;
 }
@@ -504,9 +519,9 @@ q{
   }
   .projects{
     font-size: 50px;
-    padding: 5% 0% 1% 0%;
+    padding: 8% 0% 0% 68%;
     color: #4c4c4c;
-    padding-left: 2em;
+
 }
 .projectsrepo{
     display: inline-block;
@@ -651,9 +666,8 @@ header {
 }
 .blogs{
     font-size: 50px;
-    padding: 1% 0% 0% 0%;
+    padding: 1% 0% 0% 48%;
     color: #4c4c4c;
-    padding-left: 2em;
 }
 .repo-card-div-blog {
     color: #8c8c8c;
