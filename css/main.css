@@ -295,7 +295,6 @@ p {
     text-align: center !important;
     padding: 1% 0% 1% 0%;
     color: #4c4c4c;
-    opacity: 0.65;
 
 }
 table {
@@ -318,7 +317,6 @@ tr:nth-child(even) {
     color: #4c4c4c;
     font-weight: 500;
     padding: 1% 0% 0% 7%;
-    opacity: 0.65;
     font-size: smaller;
 }
 #location{
@@ -468,7 +466,6 @@ q{
     color: #4c4c4c;
     font-weight: 500;
     padding: 0% 0% 0% 7%;
-    opacity: 0.65;
     font-size: smaller;
 }
 .mit{
