@@ -103,7 +103,7 @@ h2 {
     float: right;
 }
 .cv{
-    background: linear-gradient(-213deg, #5e31dc 0%, #3155dc 100%) right center / contain no-repeat, left center #3155dc;
+    background: linear-gradient(-213deg, #3155dc 0%, #3155dc 100%) right center / contain no-repeat, left center #3155dc;
     border: 1px solid #3155dc;
     color: #ffffff;
     box-shadow: -14px 6px 15px 5px rgba(0,0,0,0.2);
@@ -174,7 +174,7 @@ p {
     color: #4c4c4c;
 }
 .certificationbutton{
-    background: linear-gradient(-213deg, #5e31dc 0%, #3155dc 100%) right center / contain no-repeat, left center #3155dc;
+    background: linear-gradient(-213deg, #3155dc 0%, #3155dc 100%) right center / contain no-repeat, left center #3155dc;
     border: 1px solid #3155dc;
     color: #fff;
     box-shadow: -14px 6px 15px 5px rgba(0,0,0,0.2);
@@ -631,7 +631,7 @@ q{
       margin-left: 0px;
   }
   .projectsbutton{
-    background: linear-gradient(-213deg, #5e31dc 0%, #3155dc 100%) right center / contain no-repeat, left center #3155dc;
+    background: linear-gradient(-213deg, #3155dc 0%, #3155dc 100%) right center / contain no-repeat, left center #3155dc;
     border: 1px solid #3155dc;
     color: #fff;
     box-shadow: -14px 6px 15px 5px rgba(0,0,0,0.2);
@@ -740,7 +740,7 @@ header {
     margin-right: 0.75rem;
   }
   .blogsbutton{
-    background: linear-gradient(-213deg, #5e31dc 0%, #3155dc 100%) right center / contain no-repeat, left center #3155dc;
+    background: linear-gradient(-213deg, #3155dc 0%, #3155dc 100%) right center / contain no-repeat, left center #3155dc;
     border: 1px solid #3155dc;
     color: #fff;
     box-shadow: -14px 6px 15px 5px rgba(0,0,0,0.2);
