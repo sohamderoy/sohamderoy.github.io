@@ -108,7 +108,8 @@ h2 {
     color: #ffffff;
     box-shadow: -14px 6px 15px 5px rgba(0,0,0,0.2);
     font-weight: 700;
-
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
     padding: 12px 24px;
     margin-right: 50px;
@@ -178,6 +179,8 @@ p {
     color: #fff;
     box-shadow: -14px 6px 15px 5px rgba(0,0,0,0.2);
     font-weight: 700;
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
     padding: 12px 24px;
     margin-right: 50px;
@@ -630,6 +633,8 @@ q{
     color: #fff;
     box-shadow: -14px 6px 15px 5px rgba(0,0,0,0.2);
     font-weight: 700;
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
     padding: 12px 24px;
     margin-right: 50px;
@@ -737,6 +742,8 @@ header {
     color: #fff;
     box-shadow: -14px 6px 15px 5px rgba(0,0,0,0.2);
     font-weight: 700;
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
     padding: 12px 24px;
     margin-right: 50px;
