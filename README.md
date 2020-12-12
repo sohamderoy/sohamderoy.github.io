@@ -1,1 +1,1 @@
-Repo contains all the portfolio related files.
+![Portfolio Image](./img/sdr.png)
