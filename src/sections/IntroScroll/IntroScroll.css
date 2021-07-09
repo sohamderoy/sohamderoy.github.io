@@ -1,0 +1,110 @@
+.intro-scroll-text {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+/* .intro-scroll-text::before {
+  content: "Learn";
+} */
+
+.learn {
+  color: #16df7e;
+}
+.design {
+  color: #ff0000;
+}
+.hack {
+  color: #006aff;
+}
+.repeat {
+  color: #282828;
+}
+.intro-scroll-main-container {
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
+  /* -webkit-animation: fadeIn 1s ease-in;
+  animation: fadeIn 1s ease-in; */
+}
+/* Animamtion */
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-25px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-25px);
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 100px;
+  }
+}

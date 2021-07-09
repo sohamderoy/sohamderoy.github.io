@@ -1,0 +1,33 @@
+.certificates-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  grid-template-areas:
+    "card-1 card-2 card-3"
+    "card-4 card-5 card-6";
+}
+
+.certificates-card-1-wrapper {
+  grid-area: card-1;
+}
+.certificates-card-2-wrapper {
+  grid-area: card-2;
+}
+.certificates-card-3-wrapper {
+  grid-area: card-3;
+}
+.certificates-card-4-wrapper {
+  grid-area: card-4;
+}
+.certificates-card-5-wrapper {
+  grid-area: card-5;
+}
+.certificates-card-6-wrapper {
+  grid-area: card-6;
+}
+.certificates-title {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}

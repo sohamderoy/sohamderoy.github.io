@@ -1,0 +1,28 @@
+.projects-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  grid-template-areas:
+    "card-1 card-2 card-3"
+    "card-4 card-5 card-6";
+}
+
+.projects-card-1-wrapper {
+  grid-area: card-1;
+}
+.projects-card-2-wrapper {
+  grid-area: card-2;
+}
+.projects-card-3-wrapper {
+  grid-area: card-3;
+}
+.projects-card-4-wrapper {
+  grid-area: card-4;
+}
+.projects-card-5-wrapper {
+  grid-area: card-5;
+}
+.projects-card-6-wrapper {
+  grid-area: card-6;
+}

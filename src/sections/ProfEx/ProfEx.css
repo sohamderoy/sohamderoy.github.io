@@ -1,0 +1,40 @@
+.prof-ex-wrapper {
+  display: grid;
+  grid-template-columns: 0.5fr 3fr;
+  grid-template-rows: 1fr;
+  row-gap: 10px;
+  grid-template-areas: "mastercard-logo mastercard";
+  /* "anothercompany-logo anothercompany"; */
+}
+.prof-ex-mastercard-img {
+  grid-area: mastercard-logo;
+}
+.prof-ex-mastercard {
+  grid-area: mastercard;
+}
+.prof-ex-mastercard-img > img {
+  width: 150px;
+}
+
+img.prof-ex-wrapper-img {
+  /* padding: 10px;
+  margin: 10px; */
+  /* justify-self: center; */
+  text-align: center;
+}
+.prof-ex-content-wrapper {
+  margin-left: 50px;
+}
+.prof-ex-time {
+  font-size: 0.95rem;
+  color: #525252;
+}
+/* .prof-ex-anothercompany-img {
+  grid-area: anothercompany-logo;
+}
+.prof-ex-anothercompany {
+  grid-area: anothercompany;
+}
+.prof-ex-anothercompany-img > img {
+  width: 150px;
+} */

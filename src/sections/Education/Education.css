@@ -1,0 +1,33 @@
+.education-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 1fr; */
+  grid-template-areas: "iitk msrit";
+}
+img.education-wrapper-img {
+  padding: 10px;
+  margin: 10px;
+  justify-self: center;
+}
+
+.education-iitk {
+  grid-area: iitk;
+}
+.education-msrit {
+  grid-area: msrit;
+}
+
+.education-iitk > img {
+  width: 100px;
+}
+
+.education-msrit > img {
+  width: 115px;
+}
+.education-degree {
+  font-size: 1.25rem;
+}
+.education-time {
+  font-size: 0.95rem;
+  color: #525252;
+}

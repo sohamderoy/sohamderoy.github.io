@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Google Sans Regular";
+  /* background-color: white; */
+}
+
+.main-grid-wrapper {
+  display: grid;
+  grid-template-columns: 0.355fr 1fr 1fr 1.5fr 0.25fr;
+  grid-template-rows: 60px calc(100vh - 60px) 20px 0.5fr 20px 0.5fr 20px 0.5fr 20px 1fr 20px 1.5fr 20px 1.5fr 10px 0.5fr;
+  grid-gap: 10px;
+
+  grid-template-areas:
+    /* "wave wave wave wave wave" */
+    ". navbar navbar navbar ."
+    ". introduction introduction intro-scroll ."
+    ". . . . ."
+    ". skills skills skills-svg ."
+    ". . . . ."
+    ". education education education ."
+    ". . . . ."
+    ". prof-ex prof-ex prof-ex ."
+    ". . . . ."
+    ". projects projects projects ."
+    ". . . . ."
+    ". certificates certificates certificates ."
+    ". . . . ."
+    ". contact contact intro-scroll-2 ."
+    ". . . . ."
+    "footer footer footer footer footer";
+
+  background-image: url("./assets/img/wave.svg"), url("./assets/img/wave-1.svg");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  position: relative;
+}
+.grid-navbar-wrapper {
+  grid-area: navbar;
+  justify-self: end;
+}
+.grid-introduction-wrapper {
+  grid-area: introduction;
+  align-self: center;
+}
+
+.grid-intro-scroll-wrapper {
+  grid-area: intro-scroll;
+  align-self: center;
+  justify-self: center;
+}
+
+.grid-skills-wrapper {
+  grid-area: skills;
+}
+.grid-skills-svg-wrapper {
+  grid-area: skills-svg;
+  align-self: center;
+  justify-self: end;
+}
+.grid-education-wrapper {
+  grid-area: education;
+}
+.grid-prof-ex-wrapper {
+  grid-area: prof-ex;
+}
+.grid-projects-wrapper {
+  grid-area: projects;
+}
+.grid-certificates-wrapper {
+  grid-area: certificates;
+}
+.grid-contact-wrapper {
+  grid-area: contact;
+}
+.grid-intro-scroll-2-wrapper {
+  grid-area: intro-scroll-2;
+  align-self: center;
+  justify-self: center;
+}
+.grid-footer-wrapper {
+  grid-area: footer;
+  text-align: center;
+  justify-self: center;
+}
+.section-title {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
