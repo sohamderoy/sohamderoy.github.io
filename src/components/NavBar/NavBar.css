@@ -28,3 +28,9 @@ div#navbar-list a {
 div#navbar-list ul {
   list-style-type: none;
 }
+/* Media Query for responsiveness */
+@media only screen and (max-width: 768px) {
+  div#navbar-list {
+    display: none;
+  }
+}

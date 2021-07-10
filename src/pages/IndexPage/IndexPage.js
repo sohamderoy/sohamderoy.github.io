@@ -11,7 +11,7 @@ import Contact from "../../sections/Contact/Contact";
 import Footer from "../../sections/Footer/Footer";
 import NavBar from "../../components/NavBar/NavBar";
 
-import SkillsImage from "../../assets/skills/undraw_Coding3.svg";
+import SkillsImage from "../../assets/skills/undraw_Coding4.svg";
 const IndexPage = () => {
   return (
     <div>
@@ -29,7 +29,12 @@ const IndexPage = () => {
           <Skills />
         </div>
         <div className="grid-skills-svg-wrapper">
-          <img draggable="false" src={SkillsImage} alt="Java Logo" />
+          <img
+            id="grid-skills-svg-image"
+            draggable="false"
+            src={SkillsImage}
+            alt="Java Logo"
+          />
         </div>
         <div className="grid-education-wrapper">
           <Education />

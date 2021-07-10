@@ -14,3 +14,20 @@ img.skills-wrapper-img:hover {
   border-radius: 50%;
   cursor: pointer;
 }
+/* Media Query for responsiveness */
+@media only screen and (max-width: 1105px) {
+  img.skills-wrapper-img {
+    width: 90px;
+  }
+}
+@media only screen and (max-width: 945px) {
+  img.skills-wrapper-img {
+    width: 96px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .skills-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

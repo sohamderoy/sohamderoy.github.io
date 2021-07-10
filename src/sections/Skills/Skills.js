@@ -129,6 +129,62 @@ const Skills = () => {
             alt="Selenium Logo"
           />
         </BootstrapTooltip>
+        <BootstrapTooltip
+          leaveDelay={200}
+          TransitionComponent={Zoom}
+          title="Selenium"
+          placement="right"
+          arrow
+        >
+          <img
+            draggable="false"
+            className="skills-wrapper-img"
+            src={SeleniumLogo}
+            alt="Selenium Logo"
+          />
+        </BootstrapTooltip>
+        <BootstrapTooltip
+          leaveDelay={200}
+          TransitionComponent={Zoom}
+          title="Selenium"
+          placement="right"
+          arrow
+        >
+          <img
+            draggable="false"
+            className="skills-wrapper-img"
+            src={SeleniumLogo}
+            alt="Selenium Logo"
+          />
+        </BootstrapTooltip>
+        <BootstrapTooltip
+          leaveDelay={200}
+          TransitionComponent={Zoom}
+          title="Selenium"
+          placement="right"
+          arrow
+        >
+          <img
+            draggable="false"
+            className="skills-wrapper-img"
+            src={SeleniumLogo}
+            alt="Selenium Logo"
+          />
+        </BootstrapTooltip>
+        <BootstrapTooltip
+          leaveDelay={200}
+          TransitionComponent={Zoom}
+          title="Selenium"
+          placement="right"
+          arrow
+        >
+          <img
+            draggable="false"
+            className="skills-wrapper-img"
+            src={SeleniumLogo}
+            alt="Selenium Logo"
+          />
+        </BootstrapTooltip>
       </div>
     </div>
   );

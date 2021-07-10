@@ -31,3 +31,13 @@ img.education-wrapper-img {
   font-size: 0.95rem;
   color: #525252;
 }
+@media only screen and (max-width: 720px) {
+  .education-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "iitk"
+      "msrit";
+  }
+}

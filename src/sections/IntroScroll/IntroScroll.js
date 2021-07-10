@@ -19,7 +19,7 @@ const IntroScroll = () => {
         setIntroText("(un)(re)learn");
         setIntroTextClass("learn");
       }
-    }, 3000);
+    }, 4000);
     return () => clearInterval(intervalHandle);
   }, [introText]);
 

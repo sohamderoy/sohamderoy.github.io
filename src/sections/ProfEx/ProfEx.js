@@ -1,12 +1,12 @@
 import React from "react";
-import MastercardLogo from "../../assets/prof-ex/mastercard-logo.png";
+import MastercardLogo from "../../assets/prof-ex/mastercard-logo1.png";
 import "./ProfEx.css";
 
 const ProfEx = () => {
   return (
     <div>
       <h1 id="experience-link" className="section-title">
-        Professional Experience
+        Professional Exp.
       </h1>
       <div className="prof-ex-wrapper">
         <div className="prof-ex-mastercard-img">
@@ -18,8 +18,10 @@ const ProfEx = () => {
           />
         </div>
         <div className="prof-ex-mastercard">
-          <h2>Mastercard</h2>
-          <h3>Software Development Engineer in Test I</h3>
+          <h2 className="prof-ex-company">Mastercard</h2>
+          <h3 className="prof-ex-title">
+            Software Development Engineer in Test I
+          </h3>
           <i className="prof-ex-time">August 2020 - Present</i>
           <div className="prof-ex-content-wrapper">
             <ul>

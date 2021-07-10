@@ -8,6 +8,7 @@
 }
 .prof-ex-mastercard-img {
   grid-area: mastercard-logo;
+  text-align: center;
 }
 .prof-ex-mastercard {
   grid-area: mastercard;
@@ -15,12 +16,16 @@
 .prof-ex-mastercard-img > img {
   width: 150px;
 }
+h3.prof-ex-title {
+  font-size: 20px;
+}
 
 img.prof-ex-wrapper-img {
   /* padding: 10px;
   margin: 10px; */
   /* justify-self: center; */
   text-align: center;
+  width: 90px;
 }
 .prof-ex-content-wrapper {
   margin-left: 50px;
@@ -38,3 +43,24 @@ img.prof-ex-wrapper-img {
 .prof-ex-anothercompany-img > img {
   width: 150px;
 } */
+@media only screen and (max-width: 768px) {
+  img.prof-ex-wrapper-img {
+    /* padding: 10px;
+  margin: 10px; */
+    /* justify-self: center; */
+    text-align: center;
+    width: 70px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .prof-ex-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 3fr;
+    row-gap: 10px;
+    grid-template-areas:
+      "mastercard-logo"
+      "mastercard";
+    /* "anothercompany-logo anothercompany"; */
+  }
+}

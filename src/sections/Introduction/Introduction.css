@@ -54,3 +54,42 @@ h3 {
     transform: translateX(0%);
   }
 }
+/* Media Query for responsiveness */
+@media only screen and (max-width: 998px) {
+  .intro-name {
+    font-size: 3.75rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .intro-name {
+    font-size: 3.65rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .intro-text {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .intro-name {
+    font-size: 3.25rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .intro-text {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 433px) {
+  .intro-name {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}

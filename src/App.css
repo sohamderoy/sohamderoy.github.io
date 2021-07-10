@@ -94,3 +94,82 @@
   line-height: 1.2;
   margin-bottom: 25px;
 }
+img#grid-skills-svg-image {
+  width: 440px;
+}
+/* Media Query for responsiveness */
+@media only screen and (max-width: 1205px) {
+  img#grid-skills-svg-image {
+    width: 340px;
+  }
+}
+@media only screen and (max-width: 998px) {
+  .grid-navbar-wrapper {
+    grid-area: navbar;
+    justify-self: center;
+  }
+}
+@media only screen and (max-width: 945px) {
+  .main-grid-wrapper {
+    grid-template-columns: 0.355fr 1fr 1fr 1.5fr 0.25fr;
+    grid-template-rows: 60px calc(100vh - 60px) 10px 1fr 10px 0.5fr 10px 0.5fr 10px 0.5fr 10px 1fr 10px 1.5fr 10px 1.5fr 10px 0.5fr;
+    grid-template-areas:
+    /* "wave wave wave wave wave" */
+      "navbar navbar navbar navbar navbar"
+      ". introduction introduction introduction ."
+      ". . . . ."
+      ". intro-scroll intro-scroll intro-scroll ."
+      ". . . . ."
+      ". skills skills skills ."
+      ". . . . ."
+      ". education education education ."
+      ". . . . ."
+      ". prof-ex prof-ex prof-ex ."
+      ". . . . ."
+      ". projects projects projects ."
+      ". . . . ."
+      ". certificates certificates certificates ."
+      ". . . . ."
+      ". contact contact intro-scroll-2 ."
+      ". . . . ."
+      "footer footer footer footer footer";
+  }
+  img#grid-skills-svg-image {
+    display: none;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .main-grid-wrapper {
+    grid-template-columns: 0.355fr 1fr 1fr 1.5fr 0.25fr;
+    grid-template-rows: 60px calc(100vh - 60px) 10px 1fr 10px 0.5fr 10px 0.5fr 10px 0.5fr 10px 1fr 10px 1.5fr 10px 1.5fr 10px 1fr 0.5fr;
+    grid-template-areas:
+    /* "wave wave wave wave wave" */
+      "navbar navbar navbar navbar navbar"
+      ". introduction introduction introduction ."
+      ". . . . ."
+      ". intro-scroll intro-scroll intro-scroll ."
+      ". . . . ."
+      ". skills skills skills ."
+      ". . . . ."
+      ". education education education ."
+      ". . . . ."
+      ". prof-ex prof-ex prof-ex ."
+      ". . . . ."
+      ". projects projects projects ."
+      ". . . . ."
+      ". certificates certificates certificates ."
+      ". . . . ."
+      ". contact contact contact ."
+      ". . . . ."
+      ". intro-scroll-2 intro-scroll-2 intro-scroll-2 ."
+      "footer footer footer footer footer";
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section-title {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 25px;
+  }
+}
