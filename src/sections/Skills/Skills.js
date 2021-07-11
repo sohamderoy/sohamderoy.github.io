@@ -129,7 +129,7 @@ const Skills = () => {
             alt="Selenium Logo"
           />
         </BootstrapTooltip>
-        <BootstrapTooltip
+        {/* <BootstrapTooltip
           leaveDelay={200}
           TransitionComponent={Zoom}
           title="Selenium"
@@ -184,7 +184,7 @@ const Skills = () => {
             src={SeleniumLogo}
             alt="Selenium Logo"
           />
-        </BootstrapTooltip>
+        </BootstrapTooltip> */}
       </div>
     </div>
   );

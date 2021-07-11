@@ -1,7 +1,17 @@
 .footer-wrapper {
   margin-top: 10px;
   margin-bottom: 10px;
+  /* font-weight: bold; */
+}
+.footer-wrapper a {
+  color: #006aff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer-wrapper a:hover {
+  color: #006aff;
+  text-decoration: none;
 }
 .footer-text {
-  font-size: 1.15rem;
+  font-size: 1rem;
 }

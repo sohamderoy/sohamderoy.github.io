@@ -20,12 +20,11 @@ const Projects = () => {
             isProjectLink={true}
             isGithubLink={true}
             isViewCertificate={false}
-            title="Card Title"
-            subtile="Card Subtitle"
-            text="Some quick example text to build on the card title and make up
-                the bulk of the card's content."
-            projectLink=""
-            githubLink=""
+            title="sohamderoy.github.io"
+            subtile="Developer portfolio made with React"
+            text="Building a Software Developer Portfolio with clean design that will help to showcase ..."
+            projectLink="https://sohamderoy.dev"
+            githubLink="https://github.com/sohamderoy/sohamderoy.github.io"
           />
         </div>
         <div className="projects-card-2-wrapper">
@@ -37,12 +36,11 @@ const Projects = () => {
             isProjectLink={true}
             isGithubLink={true}
             isViewCertificate={false}
-            title="Card Title"
+            title="calida"
             subtile="Card Subtitle"
-            text="Some quick example text to build on the card title and make up
-                the bulk of the card's content."
-            projectLink=""
-            githubLink=""
+            text="A responsive dummy website deployment site using CSS grid. Hosted on Netlify."
+            projectLink="https://www.sohamderoy.dev/calida/"
+            githubLink="https://github.com/sohamderoy/calida"
           />
         </div>
         <div className="projects-card-3-wrapper">
@@ -54,12 +52,11 @@ const Projects = () => {
             isProjectLink={true}
             isGithubLink={true}
             isViewCertificate={false}
-            title="Card Title"
+            title="todoapp"
             subtile="Card Subtitle"
-            text="Some quick example text to build on the card title and make up
-                the bulk of the card's content."
-            projectLink=""
-            githubLink=""
+            text="A todo application , made with React. Uses local browser local memory to save ..."
+            projectLink="https://github.com/sohamderoy/todoapp"
+            githubLink="https://www.sohamderoy.dev/todoapp/"
           />
         </div>
         <div className="projects-card-4-wrapper">

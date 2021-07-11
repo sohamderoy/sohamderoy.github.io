@@ -5,24 +5,55 @@
   grid-template-areas: "iitk msrit";
 }
 img.education-wrapper-img {
-  padding: 10px;
-  margin: 10px;
+  /* padding: 10px; */
+  margin: 20px;
   justify-self: center;
 }
 
 .education-iitk {
   grid-area: iitk;
+  display: grid;
+  grid-template-columns: 0.35fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "iitk-image iitk-text";
+}
+.education-iitk-image {
+  grid-area: iitk-image;
+  align-self: center;
+}
+.education-iitk-text {
+  grid-area: iitk-text;
+  align-self: center;
 }
 .education-msrit {
   grid-area: msrit;
+  display: grid;
+  grid-template-columns: 0.35fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "msrit-image msrit-text";
+}
+.education-msrit-image {
+  grid-area: msrit-image;
+  align-self: center;
+}
+.education-msrit-text {
+  grid-area: msrit-text;
+  align-self: center;
 }
 
 .education-iitk > img {
   width: 100px;
+  box-shadow: 0px 0px 20px 5px #0062cc30;
+  border-radius: 50%;
 }
 
 .education-msrit > img {
-  width: 115px;
+  width: 100px;
+  box-shadow: 0px 0px 20px 5px #dd3f0f30;
+  border-radius: 50%;
+}
+.education-college {
+  font-size: 1.75rem;
 }
 .education-degree {
   font-size: 1.25rem;
@@ -31,7 +62,7 @@ img.education-wrapper-img {
   font-size: 0.95rem;
   color: #525252;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 877px) {
   .education-wrapper {
     display: grid;
     grid-template-columns: 1fr;

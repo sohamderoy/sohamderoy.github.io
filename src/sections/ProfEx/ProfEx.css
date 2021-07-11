@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 0.5fr 3fr;
   grid-template-rows: 1fr;
-  row-gap: 10px;
   grid-template-areas: "mastercard-logo mastercard";
   /* "anothercompany-logo anothercompany"; */
 }
@@ -25,7 +24,7 @@ img.prof-ex-wrapper-img {
   margin: 10px; */
   /* justify-self: center; */
   text-align: center;
-  width: 90px;
+  margin: 20px;
 }
 .prof-ex-content-wrapper {
   margin-left: 50px;
@@ -33,6 +32,11 @@ img.prof-ex-wrapper-img {
 .prof-ex-time {
   font-size: 0.95rem;
   color: #525252;
+}
+.prof-ex-mastercard-img > img {
+  width: 100px;
+  box-shadow: 0px 0px 20px 5px #ff5f0030;
+  border-radius: 50%;
 }
 /* .prof-ex-anothercompany-img {
   grid-area: anothercompany-logo;
@@ -43,21 +47,13 @@ img.prof-ex-wrapper-img {
 .prof-ex-anothercompany-img > img {
   width: 150px;
 } */
+
 @media only screen and (max-width: 768px) {
-  img.prof-ex-wrapper-img {
-    /* padding: 10px;
-  margin: 10px; */
-    /* justify-self: center; */
-    text-align: center;
-    width: 70px;
-  }
-}
-@media only screen and (max-width: 600px) {
   .prof-ex-wrapper {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 3fr;
-    row-gap: 10px;
+    grid-template-rows: 0.5fr 0.75fr;
+
     grid-template-areas:
       "mastercard-logo"
       "mastercard";

@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-
+import "./PortfolioCard.css";
 const PortfolioCard = ({
   isImg,
   isTitle,
@@ -18,7 +18,7 @@ const PortfolioCard = ({
   certificateLink,
 }) => {
   return (
-    <div>
+    <div className="portfolio-card-wrapper">
       <Card style={{ width: "100%" }}>
         {isImg && <Card.Img variant="top" src={imgPath} />}
         <Card.Body>
@@ -27,10 +27,20 @@ const PortfolioCard = ({
             <Card.Subtitle className="mb-2 text-muted">{subtile}</Card.Subtitle>
           )}
           {isText && <Card.Text>{text}</Card.Text>}
-          {isProjectLink && <Card.Link href="#">Project Link</Card.Link>}
-          {isGithubLink && <Card.Link href="#">Github Link</Card.Link>}
+          {isProjectLink && (
+            <Card.Link target="_blank" href={projectLink}>
+              Project Link
+            </Card.Link>
+          )}
+          {isGithubLink && (
+            <Card.Link target="_blank" href={githubLink}>
+              Github Link
+            </Card.Link>
+          )}
           {isViewCertificate && (
-            <Card.Link href="#">View Certificate</Card.Link>
+            <Card.Link target="_blank" href="#">
+              View Certificate
+            </Card.Link>
           )}
         </Card.Body>
       </Card>

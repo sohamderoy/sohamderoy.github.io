@@ -6,3 +6,25 @@
   margin-top: 25px;
   margin-bottom: 25px;
 }
+i.contact-last-updated-on {
+  font-size: 12px;
+  color: rgb(65, 65, 65);
+}
+/* i.contact-last-updated-on-white {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+} */
+i.contact-last-updated-on-opacity-0 {
+  font-size: 12px;
+
+  opacity: 0;
+}
+.contact-luo {
+  display: block;
+}
+/* Media Query for responsiveness */
+@media only screen and (max-width: 600px) {
+  .contact-text {
+    font-size: 20px;
+  }
+}

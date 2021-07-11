@@ -1,8 +1,10 @@
 import React from "react";
-import MastercardLogo from "../../assets/prof-ex/mastercard-logo1.png";
+import MastercardLogo from "../../assets/prof-ex/mastercard-logo.jpg";
 import "./ProfEx.css";
 
 const ProfEx = () => {
+  /* update this section regularly */
+
   return (
     <div>
       <h1 id="experience-link" className="section-title">
@@ -24,7 +26,7 @@ const ProfEx = () => {
           </h3>
           <i className="prof-ex-time">August 2020 - Present</i>
           <div className="prof-ex-content-wrapper">
-            <ul>
+            {/* <ul>
               <li>Lorem ipsum dolor sit.</li>
               <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
               <li>
@@ -32,7 +34,7 @@ const ProfEx = () => {
                 voluptas.
               </li>
               <li>Lorem ipsum dolor sit.</li>
-            </ul>
+            </ul> */}
           </div>
           {/* <h3>Software Development Engineer in Test I</h3>
           <h4>August 2020 - Present</h4>

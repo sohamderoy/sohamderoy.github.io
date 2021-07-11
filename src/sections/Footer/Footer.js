@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -17,7 +18,10 @@ const Footer = () => {
             verticalAlign: "-0.1em",
           }}
         />{" "}
-        by Soham De Roy
+        by{" "}
+        <a className="footer-name-link" href="https://www.sohamderoy.dev">
+          Soham De Roy
+        </a>
       </h3>
     </div>
   );

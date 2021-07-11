@@ -1,0 +1,9 @@
+.portfolio-card-wrapper {
+  box-shadow: 0 10px 30px -15px rgb(0 0 0 / 20%);
+  border: 1px solid hsla(0, 0%, 82.7%, 0.397);
+  border-radius: 0.25rem;
+}
+.portfolio-card-wrapper:hover {
+  box-shadow: 0 20px 30px -10px rgb(0 0 0 / 20%);
+  cursor: pointer;
+}

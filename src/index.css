@@ -8,31 +8,37 @@ body {
 }
 @font-face {
   font-family: "Google Sans Bold";
+  font-display: swap;
   src: local("Google Sans Bold"),
     url("./assets/fonts/GoogleSans-Bold.ttf") format("woff");
 }
 @font-face {
   font-family: "Google Sans Bold Italic";
+  font-display: swap;
   src: local("Google Sans Bold Italic"),
     url("./assets/fonts/GoogleSans-BoldItalic.ttf") format("woff");
 }
 @font-face {
   font-family: "Google Sans Italic";
+  font-display: swap;
   src: local("Google Sans Italic"),
     url("./assets/fonts/GoogleSans-Italic.ttf") format("woff");
 }
 @font-face {
   font-family: "Google Sans Medium";
+  font-display: swap;
   src: local("Google Sans Medium"),
     url("./assets/fonts/GoogleSans-Medium.ttf") format("woff");
 }
 @font-face {
   font-family: "Google Sans Medium Italic";
+  font-display: swap;
   src: local("Google Sans Medium Italic"),
     url("./assets/fonts/GoogleSans-MediumItalic.ttf") format("woff");
 }
 @font-face {
   font-family: "Google Sans Regular";
+  font-display: swap;
   src: local("Google Sans Regular"),
     url("./assets/fonts/GoogleSans-Regular.ttf") format("woff");
 }
