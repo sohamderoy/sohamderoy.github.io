@@ -20,6 +20,7 @@ const Projects = () => {
             isProjectLink={true}
             isGithubLink={true}
             isViewCertificate={false}
+            tooltipText="Building a Software Developer Portfolio with clean design that will help to showcase your work and skills as a software developer. Personal website hosted on: sohamderoy.dev"
             title="sohamderoy.github.io"
             subtile="Developer portfolio made with React"
             text="Building a Software Developer Portfolio with clean design that will help to showcase ..."
@@ -36,6 +37,7 @@ const Projects = () => {
             isProjectLink={true}
             isGithubLink={true}
             isViewCertificate={false}
+            tooltipText="A responsive dummy website deployment site using CSS grid. Hosted on Netlify."
             title="calida"
             subtile="Card Subtitle"
             text="A responsive dummy website deployment site using CSS grid. Hosted on Netlify."
@@ -52,11 +54,12 @@ const Projects = () => {
             isProjectLink={true}
             isGithubLink={true}
             isViewCertificate={false}
+            tooltipText="A todo Application, made with React. Uses local browser local memory to save the todos. Implements functional components, and react hooks like useState, useEffect."
             title="todoapp"
             subtile="Card Subtitle"
-            text="A todo application , made with React. Uses local browser local memory to save ..."
-            projectLink="https://github.com/sohamderoy/todoapp"
-            githubLink="https://www.sohamderoy.dev/todoapp/"
+            text="A todo Application, made with React. Uses local browser local memory to save ..."
+            projectLink="https://www.sohamderoy.dev/todoapp/"
+            githubLink="https://github.com/sohamderoy/todoapp"
           />
         </div>
         <div className="projects-card-4-wrapper">
@@ -68,6 +71,7 @@ const Projects = () => {
             isProjectLink={true}
             isGithubLink={true}
             isViewCertificate={false}
+            tooltipText="Building a Software Developer Portfolio with clean design that will help to showcase your work and skills as a software developer. Personal website hosted on: sohamderoy.dev"
             title="Card Title"
             subtile="Card Subtitle"
             text="Some quick example text to build on the card title and make up
@@ -85,6 +89,7 @@ const Projects = () => {
             isProjectLink={true}
             isGithubLink={true}
             isViewCertificate={false}
+            tooltipText="Building a Software Developer Portfolio with clean design that will help to showcase your work and skills as a software developer. Personal website hosted on: sohamderoy.dev"
             title="Card Title"
             subtile="Card Subtitle"
             text="Some quick example text to build on the card title and make up
@@ -102,6 +107,7 @@ const Projects = () => {
             isProjectLink={true}
             isGithubLink={true}
             isViewCertificate={false}
+            tooltipText="Building a Software Developer Portfolio with clean design that will help to showcase your work and skills as a software developer. Personal website hosted on: sohamderoy.dev"
             title="Card Title"
             subtile="Card Subtitle"
             text="Some quick example text to build on the card title and make up
