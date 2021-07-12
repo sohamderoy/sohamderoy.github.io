@@ -27,6 +27,8 @@ const PortfolioCard = ({
     },
     tooltip: {
       backgroundColor: theme.palette.common.black,
+      fontSize: "1rem",
+      fontFamily: "Google Sans Regular",
     },
   }));
   function BootstrapTooltip(props) {
@@ -37,7 +39,7 @@ const PortfolioCard = ({
   return (
     <div className="portfolio-card-wrapper">
       <BootstrapTooltip
-        leaveDelay={200}
+        leaveDelay={100}
         TransitionComponent={Zoom}
         title={tooltipText}
         placement="top"
@@ -64,7 +66,7 @@ const PortfolioCard = ({
               </Card.Link>
             )}
             {isViewCertificate && (
-              <Card.Link target="_blank" href="#">
+              <Card.Link target="_blank" href={certificateLink}>
                 View Certificate
               </Card.Link>
             )}

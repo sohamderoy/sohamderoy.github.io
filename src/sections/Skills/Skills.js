@@ -9,6 +9,7 @@ import JavaScriptLogo from "../../assets/skills/javascript.svg";
 import HtmlLogo from "../../assets/skills/html5.svg";
 import CssLogo from "../../assets/skills/css3.svg";
 import ReactLogo from "../../assets/skills/react.svg";
+import SqlLogo from "../../assets/skills/sql.png";
 import MongoDbLogo from "../../assets/skills/mongodb.svg";
 import SeleniumLogo from "../../assets/skills/selenium.svg";
 const Skills = () => {
@@ -18,6 +19,8 @@ const Skills = () => {
     },
     tooltip: {
       backgroundColor: theme.palette.common.black,
+      fontSize: "1rem",
+      fontFamily: "Google Sans Regular",
     },
   }));
   function BootstrapTooltip(props) {
@@ -35,7 +38,7 @@ const Skills = () => {
           leaveDelay={200}
           TransitionComponent={Zoom}
           title="Java"
-          placement="right"
+          placement="top"
           arrow
         >
           <img
@@ -49,7 +52,7 @@ const Skills = () => {
           leaveDelay={200}
           TransitionComponent={Zoom}
           title="JavaScript"
-          placement="right"
+          placement="top"
           arrow
         >
           <img
@@ -63,7 +66,7 @@ const Skills = () => {
           leaveDelay={200}
           TransitionComponent={Zoom}
           title="React"
-          placement="right"
+          placement="top"
           arrow
         >
           <img
@@ -76,22 +79,22 @@ const Skills = () => {
         <BootstrapTooltip
           leaveDelay={200}
           TransitionComponent={Zoom}
-          title="MongoDB"
-          placement="right"
+          title="SQL"
+          placement="top"
           arrow
         >
           <img
             draggable="false"
             className="skills-wrapper-img"
-            src={MongoDbLogo}
-            alt="MongoDB Logo"
+            src={SqlLogo}
+            alt="SQL Logo"
           />
         </BootstrapTooltip>
         <BootstrapTooltip
           leaveDelay={200}
           TransitionComponent={Zoom}
           title="HTML"
-          placement="right"
+          placement="top"
           arrow
         >
           <img
@@ -105,7 +108,7 @@ const Skills = () => {
           leaveDelay={200}
           TransitionComponent={Zoom}
           title="CSS"
-          placement="right"
+          placement="top"
           arrow
         >
           <img
@@ -119,7 +122,7 @@ const Skills = () => {
           leaveDelay={200}
           TransitionComponent={Zoom}
           title="Selenium"
-          placement="right"
+          placement="top"
           arrow
         >
           <img
@@ -133,7 +136,7 @@ const Skills = () => {
           leaveDelay={200}
           TransitionComponent={Zoom}
           title="Selenium"
-          placement="right"
+          placement="top"
           arrow
         >
           <img
@@ -147,7 +150,7 @@ const Skills = () => {
           leaveDelay={200}
           TransitionComponent={Zoom}
           title="Selenium"
-          placement="right"
+          placement="top"
           arrow
         >
           <img
@@ -161,7 +164,7 @@ const Skills = () => {
           leaveDelay={200}
           TransitionComponent={Zoom}
           title="Selenium"
-          placement="right"
+          placement="top"
           arrow
         >
           <img
@@ -175,7 +178,7 @@ const Skills = () => {
           leaveDelay={200}
           TransitionComponent={Zoom}
           title="Selenium"
-          placement="right"
+          placement="top"
           arrow
         >
           <img

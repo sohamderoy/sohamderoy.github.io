@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div>
       <h1 id="projects-link" className="section-title">
-        Projects
+        Projects & Contributions
       </h1>
       <div className="projects-wrapper">
         <div className="projects-card-1-wrapper">
@@ -62,7 +62,7 @@ const Projects = () => {
             githubLink="https://github.com/sohamderoy/todoapp"
           />
         </div>
-        <div className="projects-card-4-wrapper">
+        {/* <div className="projects-card-4-wrapper">
           <PortfolioCard
             isImg={false}
             isTitle={true}
@@ -115,7 +115,7 @@ const Projects = () => {
             projectLink=""
             githubLink=""
           />
-        </div>
+        </div> */}
       </div>
       <Button
         path={process.env.REACT_APP_GITHUB_URL}
