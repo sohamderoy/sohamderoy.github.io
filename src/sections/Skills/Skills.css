@@ -8,12 +8,14 @@ img.skills-wrapper-img {
   margin: 10px;
   justify-self: center;
   width: 96px;
+  transition: all 0.2s ease-out;
 }
 
 img.skills-wrapper-img:hover {
-  background-color: #f1f1f1;
-  border-radius: 50%;
+  /* background-color: #f1f1f1; */
+  /* border-radius: 50%; */
   cursor: pointer;
+  transform: translateY(-3px);
 }
 /* Media Query for responsiveness */
 @media only screen and (max-width: 1105px) {

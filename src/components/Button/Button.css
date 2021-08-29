@@ -1,15 +1,22 @@
 .button {
   padding: 10px 40px;
-  border-radius: 50px;
+  border-radius: 5px;
   width: auto;
   outline: none;
-  border: 2px solid #006aff;
-  box-shadow: 0px 0px 20px 5px #0062cc36;
+  border: 0px solid #ffffff;
+  box-shadow: 0px 6px 14px -6px rgb(24 39 75 / 12%),
+    0px 10px 32px -4px rgb(24 39 75 / 10%),
+    inset 0px 0px 2px 1px rgb(24 39 75 / 5%);
   font-size: 1.1rem;
+  transition: all 0.2s ease-out;
 }
 
 .button:hover {
   cursor: pointer;
+  background-color: #fff;
+  color: #006aff;
+  font-size: 1.1rem;
+  transform: translateY(-3px);
 }
 .button:disabled {
   cursor: not-allowed;
@@ -31,3 +38,32 @@
   padding-top: 25px;
   padding-bottom: 10px;
 }
+
+/* button {
+  padding: 1.5em 5em;
+  background: #f2f2f2;
+  border: none;
+  border-radius: 50px;
+  color: #444;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  box-shadow: -6px -6px 14px rgba(255, 255, 255, 0.7),
+    -6px -6px 10px rgba(255, 255, 255, 0.5),
+    6px 6px 8px rgba(255, 255, 255, 0.075), 6px 6px 10px rgba(0, 0, 0, 0.15);
+}
+button:hover {
+  box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.6),
+    -2px -2px 4px rgba(255, 255, 255, 0.4),
+    2px 2px 2px rgba(255, 255, 255, 0.05), 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+button:active {
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.7),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 2px rgba(255, 255, 255, 0.075),
+    inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+} */

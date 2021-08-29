@@ -17,6 +17,7 @@
 }
 h3.prof-ex-title {
   font-size: 20px;
+  color: #5f6368;
 }
 
 img.prof-ex-wrapper-img {
@@ -31,11 +32,11 @@ img.prof-ex-wrapper-img {
 }
 .prof-ex-time {
   font-size: 0.95rem;
-  color: #525252;
+  color: #5f6368;
 }
 .prof-ex-mastercard-img > img {
   width: 100px;
-  box-shadow: 0px 0px 20px 5px #ff5f0030;
+  /* box-shadow: 0px 0px 20px 5px #ff5f0030; */
   border-radius: 50%;
 }
 /* .prof-ex-anothercompany-img {

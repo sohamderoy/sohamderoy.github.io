@@ -1,6 +1,7 @@
 import React from "react";
 import SocialmediaApps from "../../components/SocialmediaApps/SocialmediaApps";
 import "./Contact.css";
+import Button from "../../components/Button/Button";
 import preval from "preval.macro";
 const Contact = () => {
   return (
@@ -13,6 +14,11 @@ const Contact = () => {
         <h3 className="contact-text">My inbox is always open!</h3>
       </div>
       <SocialmediaApps />
+      <Button
+        path={process.env.REACT_APP_RESUME_URL}
+        buttonType="button-primary"
+        buttonText="Resume"
+      />
       <div className="contact-luo">
         <div>
           {/* <i className="contact-last-updated-on-white">

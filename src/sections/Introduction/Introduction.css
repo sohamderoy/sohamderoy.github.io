@@ -1,25 +1,73 @@
 .intro-text {
-  font-size: 23px;
+  font-size: 1.25rem;
   margin-top: 25px;
   margin-bottom: 25px;
 }
 .intro-name {
   font-size: 4.5rem;
-  font-weight: 300;
+  font-weight: 900;
   line-height: 1.2;
 }
 .intro-title {
-  font-size: 1.25rem;
-  font-weight: 300;
+  font-size: 23px;
+  font-weight: 500;
+  color: #006aff;
 }
 .introduction-main-container {
-  animation: fadeIn 1s ease-in;
+  /* animation: fadeIn 1s ease-in; */
+}
+.intro-hi-emoji {
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: hi;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+h3.intro-hello-text {
+  font-size: 40px;
+  font-weight: 900;
+  transition: all 0.2s ease-out;
 }
 h3 {
-  color: rgb(82, 82, 82);
+  color: #5f6368;
+}
+p {
+  color: #5f6368;
+}
+.hello-text-blue {
+  color: var(--ldhr-blue);
+}
+.hello-text-red {
+  color: var(--ldhr-red);
+}
+.hello-text-green {
+  color: var(--ldhr-green);
 }
 
 /* Animamtion */
+@keyframes hi {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(12deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 @keyframes slideInFromLet {
   0% {
     /* transform: translateX(-100%); */

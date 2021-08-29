@@ -1,22 +1,22 @@
 import React, { useState, useEffect } from "react";
 import "./IntroScroll.css";
 const IntroScroll = () => {
-  const [introText, setIntroText] = useState("(un)(re)learn");
+  const [introText, setIntroText] = useState("Learn");
   const [introTextClass, setIntroTextClass] = useState("learn");
 
   useEffect(() => {
     const intervalHandle = setInterval(() => {
-      if (introText === "(un)(re)learn") {
-        setIntroText("design");
+      if (introText === "Learn") {
+        setIntroText("Design");
         setIntroTextClass("design");
-      } else if (introText === "design") {
-        setIntroText("hack");
+      } else if (introText === "Design") {
+        setIntroText("Hack");
         setIntroTextClass("hack");
-      } else if (introText === "hack") {
-        setIntroText("repeat");
+      } else if (introText === "Hack") {
+        setIntroText("Repeat");
         setIntroTextClass("repeat");
-      } else if (introText === "repeat") {
-        setIntroText("(un)(re)learn");
+      } else if (introText === "Repeat") {
+        setIntroText("Learn");
         setIntroTextClass("learn");
       }
     }, 4000);

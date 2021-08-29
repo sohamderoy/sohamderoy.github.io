@@ -51,3 +51,9 @@ body {
   scroll-behavior: smooth;
   font-family: "Google Sans Regular";
 }
+:root {
+  --ldhr-blue: #006aff;
+  --ldhr-red: #ff0000;
+  --ldhr-green: #13aa52;
+  --ldhr-black: #282828;
+}

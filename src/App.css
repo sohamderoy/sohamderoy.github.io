@@ -5,7 +5,7 @@
   box-sizing: border-box;
   outline: none;
   font-family: "Google Sans Regular";
-  /* background-color: white; */
+  background-color: white;
 }
 
 .main-grid-wrapper {
@@ -15,8 +15,7 @@
   grid-gap: 10px;
 
   grid-template-areas:
-    /* "wave wave wave wave wave" */
-    ". navbar navbar navbar ."
+    "navbar navbar navbar navbar navbar"
     ". introduction introduction intro-scroll ."
     ". . . . ."
     ". skills skills skills-svg ."
@@ -33,7 +32,7 @@
     ". . . . ."
     "footer footer footer footer footer";
 
-  background-image: url("./assets/img/wave.svg"), url("./assets/img/wave-1.svg");
+  /* background-image: url("./assets/img/wave.svg"), url("./assets/img/wave-1.svg"); */
   height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,7 +41,8 @@
 }
 .grid-navbar-wrapper {
   grid-area: navbar;
-  justify-self: end;
+  width: 100%;
+  border-bottom: 1px solid #dadce0;
 }
 .grid-introduction-wrapper {
   grid-area: introduction;
@@ -89,10 +89,11 @@
   justify-self: center;
 }
 .section-title {
-  font-size: 3.5rem;
-  font-weight: 300;
+  font-size: 3rem;
+  font-weight: 900;
   line-height: 1.2;
-  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
 img#grid-skills-svg-image {
   width: 440px;
@@ -103,18 +104,17 @@ img#grid-skills-svg-image {
     width: 340px;
   }
 }
-@media only screen and (max-width: 998px) {
+/* @media only screen and (max-width: 998px) {
   .grid-navbar-wrapper {
     grid-area: navbar;
     justify-self: center;
   }
-}
+} */
 @media only screen and (max-width: 945px) {
   .main-grid-wrapper {
-    grid-template-columns: 0.355fr 1fr 1fr 1.5fr 0.25fr;
+    grid-template-columns: 0.355fr 1fr 1fr 1.5fr 0.355fr;
     grid-template-rows: 60px calc(100vh - 60px) 10px 1fr 10px 0.5fr 10px 0.5fr 10px 0.5fr 10px 1fr 10px 1.5fr 10px 1.5fr 10px 0.5fr;
     grid-template-areas:
-    /* "wave wave wave wave wave" */
       "navbar navbar navbar navbar navbar"
       ". introduction introduction introduction ."
       ". . . . ."
@@ -137,15 +137,21 @@ img#grid-skills-svg-image {
   img#grid-skills-svg-image {
     display: none;
   }
+  .grid-navbar-wrapper {
+    grid-area: navbar;
+    /* justify-self: end; */
+    /* background-color: yellow; */
+    width: 100%;
+    border-bottom: 0px solid #dadce0;
+  }
 }
 @media only screen and (max-width: 835px) {
   .main-grid-wrapper {
     grid-template-columns: 0.355fr 1fr 1fr 1.5fr 0.25fr;
     grid-template-rows: 60px calc(100vh - 60px) 10px 1fr 10px 0.5fr 10px 0.5fr 10px 0.5fr 10px 1fr 10px 1.5fr 10px 1.5fr 10px 1fr 0.5fr;
     grid-template-areas:
-    /* "wave wave wave wave wave" */
       "navbar navbar navbar navbar navbar"
-      ". introduction introduction introduction ."
+      ". introduction introduction introduction introduction ."
       ". . . . ."
       ". intro-scroll intro-scroll intro-scroll ."
       ". . . . ."
@@ -168,7 +174,7 @@ img#grid-skills-svg-image {
 @media only screen and (max-width: 768px) {
   .section-title {
     font-size: 3rem;
-    font-weight: 300;
+    font-weight: 900;
     line-height: 1.2;
     margin-bottom: 25px;
   }

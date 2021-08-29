@@ -43,13 +43,13 @@ img.education-wrapper-img {
 
 .education-iitk > img {
   width: 100px;
-  box-shadow: 0px 0px 20px 5px #0062cc30;
+  /* box-shadow: 0px 0px 20px 5px #0062cc30; */
   border-radius: 50%;
 }
 
 .education-msrit > img {
   width: 100px;
-  box-shadow: 0px 0px 20px 5px #dd3f0f30;
+  /* box-shadow: 0px 0px 20px 5px #dd3f0f30; */
   border-radius: 50%;
 }
 .education-college {
@@ -57,10 +57,11 @@ img.education-wrapper-img {
 }
 .education-degree {
   font-size: 1.25rem;
+  color: #5f6368;
 }
 .education-time {
   font-size: 0.95rem;
-  color: #525252;
+  color: #5f6368;
 }
 @media only screen and (max-width: 877px) {
   .education-wrapper {
