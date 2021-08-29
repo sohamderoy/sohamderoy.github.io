@@ -1,5 +1,6 @@
 {
   "name": "new-portfolio",
+  "homepage": "https://sohamderoy.dev",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +9,7 @@
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^4.6.0",
+    "gh-pages": "^3.2.3",
     "preval.macro": "^5.0.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
@@ -19,6 +21,8 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

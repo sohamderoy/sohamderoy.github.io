@@ -30,7 +30,7 @@ const Introduction = () => {
         setHelloText("Bonjour");
         setHelloTextClass("hello-text-blue");
       } else if (helloText === "Bonjour") {
-        setHelloText("aloha");
+        setHelloText("Aloha");
         setHelloTextClass("hello-text-red");
       } else if (helloText === "Aloha") {
         setHelloText("Hallo");
