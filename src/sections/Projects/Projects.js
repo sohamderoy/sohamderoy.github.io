@@ -1,6 +1,9 @@
 import React from "react";
 import PortfolioCard from "../../components/PortfolioCard/PortfolioCard";
 import Button from "../../components/Button/Button";
+import project1 from "../../assets/projects/project1.PNG";
+import project2 from "../../assets/projects/project2.PNG";
+import project3 from "../../assets/projects/project3.PNG";
 
 import "./Projects.css";
 
@@ -13,13 +16,14 @@ const Projects = () => {
       <div className="projects-wrapper">
         <div className="projects-card-1-wrapper">
           <PortfolioCard
-            isImg={false}
+            isImg={true}
             isTitle={true}
             isSubtitle={true}
             isText={true}
             isProjectLink={true}
             isGithubLink={true}
             isViewCertificate={false}
+            imgPath={project1}
             tooltipText="Building a Software Developer Portfolio with clean design that will help to showcase your work and skills as a software developer. Personal website hosted on: sohamderoy.dev"
             title="sohamderoy.github.io"
             subtile="Developer portfolio made with React"
@@ -30,13 +34,14 @@ const Projects = () => {
         </div>
         <div className="projects-card-2-wrapper">
           <PortfolioCard
-            isImg={false}
+            isImg={true}
             isTitle={true}
             isSubtitle={true}
             isText={true}
             isProjectLink={true}
             isGithubLink={true}
             isViewCertificate={false}
+            imgPath={project2}
             tooltipText="A responsive dummy website deployment site using CSS grid. Hosted on Netlify."
             title="calida"
             subtile="Card Subtitle"
@@ -47,13 +52,14 @@ const Projects = () => {
         </div>
         <div className="projects-card-3-wrapper">
           <PortfolioCard
-            isImg={false}
+            isImg={true}
             isTitle={true}
             isSubtitle={true}
             isText={true}
             isProjectLink={true}
             isGithubLink={true}
             isViewCertificate={false}
+            imgPath={project3}
             tooltipText="A todo Application, made with React. Uses local browser local memory to save the todos. Implements functional components, and react hooks like useState, useEffect."
             title="todoapp"
             subtile="Card Subtitle"
