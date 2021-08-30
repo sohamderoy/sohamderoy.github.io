@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./NavBar.css";
 
 const NavBar = () => {
@@ -57,9 +58,20 @@ const NavBar = () => {
       <HashLink className="nav-item nav-item-5" smooth to="/#certificate-link">
         <h1>Certificates</h1>
       </HashLink>
-      <HashLink className="nav-item nav-item-6" smooth to="/#blogs-link">
+      {/* <HashLink className="nav-item nav-item-6" smooth to="/#blogs-link">
         <button className="nav-btn">Blogs</button>
-      </HashLink>
+      </HashLink> */}
+      <Link
+        className="nav-item nav-item-6"
+        smooth
+        to={{
+          pathname: "https://blog.sohamderoy.dev/",
+        }}
+        target="_blank"
+        rel="noreferrer nofollow"
+      >
+        <button className="nav-btn">Blogs</button>
+      </Link>
     </div>
   );
 };
