@@ -5,7 +5,7 @@
 
 img.skills-wrapper-img {
   padding: 10px;
-  margin: 10px;
+  /* margin: 10px; */
   justify-self: center;
   width: 96px;
   transition: all 0.2s ease-out;
@@ -16,6 +16,14 @@ img.skills-wrapper-img:hover {
   /* border-radius: 50%; */
   cursor: pointer;
   transform: translateY(-3px);
+}
+.skills-items {
+  text-align: center;
+  margin-bottom: 10px;
+}
+h6.skills-items-text {
+  font-weight: 900;
+  color: #313232;
 }
 /* Media Query for responsiveness */
 @media only screen and (max-width: 1105px) {

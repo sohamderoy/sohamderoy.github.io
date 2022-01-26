@@ -1,11 +1,12 @@
 import React from "react";
-import "../../App.css";
+import "./HomePage.css";
 import Introduction from "../../sections/Introduction/Introduction";
 import IntroScroll from "../../sections/IntroScroll/IntroScroll";
 import Skills from "../../sections/Skills/Skills";
 import Education from "../../sections/Education/Education";
 import ProfEx from "../../sections/ProfEx/ProfEx";
 import Projects from "../../sections/Projects/Projects";
+import Blogs from "../../sections/Blogs/Blogs";
 import Certificates from "../../sections/Certificates/Certificates";
 import Contact from "../../sections/Contact/Contact";
 import Footer from "../../sections/Footer/Footer";
@@ -45,15 +46,18 @@ const IndexPage = () => {
         <div className="grid-projects-wrapper">
           <Projects />
         </div>
-        {/* <div className="grid-certificates-wrapper">
+        <div className="grid-blogs-wrapper">
+          <Blogs />
+        </div>
+        <div className="grid-certificates-wrapper">
           <Certificates />
-        </div> */}
+        </div>
         <div className="grid-contact-wrapper">
           <Contact />
         </div>
-        {/* <div className="grid-intro-scroll-2-wrapper">
+        <div className="grid-intro-scroll-2-wrapper">
           <IntroScroll />
-        </div> */}
+        </div>
         <div className="grid-footer-wrapper">
           <Footer />
         </div>

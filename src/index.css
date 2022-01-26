@@ -6,6 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+html {
+  scroll-behavior: smooth;
+}
 @font-face {
   font-family: "Google Sans Bold";
   font-display: swap;
@@ -42,7 +45,7 @@ body {
   src: local("Google Sans Regular"),
     url("./assets/fonts/GoogleSans-Regular.ttf") format("woff");
 }
-
+@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

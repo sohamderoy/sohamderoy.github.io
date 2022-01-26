@@ -55,9 +55,9 @@ const NavBar = () => {
       <HashLink className="nav-item nav-item-4" smooth to="/#projects-link">
         <h1>Projects</h1>
       </HashLink>
-      <HashLink className="nav-item nav-item-5" smooth to="/#certificate-link">
+      {/* <HashLink className="nav-item nav-item-5" smooth to="/#certificate-link">
         <h1>Certificates</h1>
-      </HashLink>
+      </HashLink> */}
       {/* <HashLink className="nav-item nav-item-6" smooth to="/#blogs-link">
         <button className="nav-btn">Blogs</button>
       </HashLink> */}

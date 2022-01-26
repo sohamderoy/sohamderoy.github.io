@@ -38,41 +38,31 @@ const PortfolioCard = ({
   }
   return (
     <div className="portfolio-card-wrapper">
-      <BootstrapTooltip
-        leaveDelay={100}
-        TransitionComponent={Zoom}
-        title={tooltipText}
-        placement="top"
-        arrow
-      >
-        <Card style={{ width: "100%" }}>
-          {isImg && <Card.Img variant="top" src={imgPath} />}
-          <Card.Body>
-            {isTitle && <Card.Title>{title}</Card.Title>}
-            {isSubtitle && (
-              <Card.Subtitle className="mb-2 text-muted">
-                {subtile}
-              </Card.Subtitle>
-            )}
-            {isText && <Card.Text>{text}</Card.Text>}
-            {isProjectLink && (
-              <Card.Link target="_blank" href={projectLink}>
-                Project Link
-              </Card.Link>
-            )}
-            {isGithubLink && (
-              <Card.Link target="_blank" href={githubLink}>
-                Github Link
-              </Card.Link>
-            )}
-            {isViewCertificate && (
-              <Card.Link target="_blank" href={certificateLink}>
-                View Certificate
-              </Card.Link>
-            )}
-          </Card.Body>
-        </Card>
-      </BootstrapTooltip>
+      <Card style={{ width: "100%" }}>
+        {isImg && <Card.Img variant="top" src={imgPath} />}
+        <Card.Body>
+          {isTitle && <Card.Title>{title}</Card.Title>}
+          {isSubtitle && (
+            <Card.Subtitle className="mb-2 text-muted">{subtile}</Card.Subtitle>
+          )}
+          {isText && <Card.Text>{text}</Card.Text>}
+          {isProjectLink && (
+            <Card.Link target="_blank" href={projectLink}>
+              Project Link
+            </Card.Link>
+          )}
+          {isGithubLink && (
+            <Card.Link target="_blank" href={githubLink}>
+              Github Link
+            </Card.Link>
+          )}
+          {isViewCertificate && (
+            <Card.Link target="_blank" href={certificateLink}>
+              View Certificate
+            </Card.Link>
+          )}
+        </Card.Body>
+      </Card>
     </div>
   );
 };

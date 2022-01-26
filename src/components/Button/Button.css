@@ -4,9 +4,9 @@
   width: auto;
   outline: none;
   border: 0px solid #ffffff;
-  box-shadow: 0px 6px 14px -6px rgb(24 39 75 / 12%),
+  /* box-shadow: 0px 6px 14px -6px rgb(24 39 75 / 12%),
     0px 10px 32px -4px rgb(24 39 75 / 10%),
-    inset 0px 0px 2px 1px rgb(24 39 75 / 5%);
+    inset 0px 0px 2px 1px rgb(24 39 75 / 5%); */
   font-size: 1.1rem;
   transition: all 0.2s ease-out;
 }
@@ -17,6 +17,9 @@
   color: #006aff;
   font-size: 1.1rem;
   transform: translateY(-3px);
+  box-shadow: 0px 6px 14px -6px rgb(24 39 75 / 12%),
+    0px 10px 32px -4px rgb(24 39 75 / 10%),
+    inset 0px 0px 2px 1px rgb(24 39 75 / 5%);
 }
 .button:disabled {
   cursor: not-allowed;
@@ -24,6 +27,8 @@
 .button-secondary {
   background-color: #fff;
   color: #006aff;
+  /* border-color: black; */
+  border: 1px solid #dfdfdf;
 }
 .button-primary {
   background-color: #006aff;

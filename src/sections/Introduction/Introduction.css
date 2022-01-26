@@ -43,6 +43,39 @@ p {
 .hello-text-green {
   color: var(--ldhr-green);
 }
+.introduction-button-container {
+  display: flex;
+}
+.introduction-buttons {
+  margin-right: 15px;
+}
+.intro-skills-wrapper {
+  margin-top: 25px;
+}
+.intro-skills {
+  border: 1px solid #d5d5d5;
+  align-self: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 4px 15px;
+  margin-right: 10px;
+}
+.intro-skills-text {
+  font-size: 13.5px;
+  font-weight: 900;
+  line-height: 20px;
+  color: #3b3b3b;
+  margin-left: 10px;
+  font-family: "Archivo", sans-serif;
+  letter-spacing: 0.45px;
+}
+.intro-skills-img {
+  width: 22px;
+}
+a.intro-skills-more:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
 
 /* Animamtion */
 @keyframes hi {
@@ -110,6 +143,11 @@ p {
     line-height: 1.2;
   }
 }
+@media only screen and (max-width: 645px) {
+  .visibility-hidden-1 {
+    display: none;
+  }
+}
 @media only screen and (max-width: 600px) {
   .intro-name {
     font-size: 3.65rem;
@@ -120,6 +158,11 @@ p {
     font-size: 20px;
     margin-top: 25px;
     margin-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .visibility-hidden-2 {
+    display: none;
   }
 }
 @media only screen and (max-width: 482px) {

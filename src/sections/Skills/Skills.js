@@ -9,9 +9,15 @@ import JavaScriptLogo from "../../assets/skills/javascript.svg";
 import HtmlLogo from "../../assets/skills/html5.svg";
 import CssLogo from "../../assets/skills/css3.svg";
 import ReactLogo from "../../assets/skills/react.svg";
+import ReduxLogo from "../../assets/skills/redux.svg";
 import SqlLogo from "../../assets/skills/sql.png";
+import GitLogo from "../../assets/skills/git.svg";
 import MongoDbLogo from "../../assets/skills/mongodb.svg";
 import SeleniumLogo from "../../assets/skills/selenium.svg";
+import BootstrapLogo from "../../assets/skills/bootstrap2.svg";
+import IntellijLogo from "../../assets/skills/intellij.svg";
+import PostmanLogo from "../../assets/skills/postman.svg";
+import VsCodeLogo from "../../assets/skills/vscode.svg";
 const Skills = () => {
   const useStylesBootstrap = makeStyles((theme) => ({
     arrow: {
@@ -31,163 +37,152 @@ const Skills = () => {
   return (
     <div>
       <h1 id="skills-link" className="section-title">
-        Skills
+        Skills & Tools
       </h1>
       <div className="skills-wrapper">
-        <BootstrapTooltip
-          leaveDelay={200}
-          TransitionComponent={Zoom}
-          title="Java"
-          placement="top"
-          arrow
-        >
-          <img
-            draggable="false"
-            className="skills-wrapper-img"
-            src={JavaLogo}
-            alt="Java Logo"
-          />
-        </BootstrapTooltip>
-        <BootstrapTooltip
-          leaveDelay={200}
-          TransitionComponent={Zoom}
-          title="JavaScript"
-          placement="top"
-          arrow
-        >
+        <div className="skills-items">
           <img
             draggable="false"
             className="skills-wrapper-img"
             src={JavaScriptLogo}
             alt="JavaScript Logo"
           />
-        </BootstrapTooltip>
-        <BootstrapTooltip
-          leaveDelay={200}
-          TransitionComponent={Zoom}
-          title="React"
-          placement="top"
-          arrow
-        >
+          <h6 className="skills-items-text">
+            <bold>Javascript</bold>
+          </h6>
+        </div>
+        <div className="skills-items">
           <img
             draggable="false"
             className="skills-wrapper-img"
             src={ReactLogo}
             alt="React Logo"
           />
-        </BootstrapTooltip>
-        <BootstrapTooltip
-          leaveDelay={200}
-          TransitionComponent={Zoom}
-          title="SQL"
-          placement="top"
-          arrow
-        >
+          <h6 className="skills-items-text">
+            <bold>React</bold>
+          </h6>
+        </div>
+        <div className="skills-items">
+          <img
+            draggable="false"
+            className="skills-wrapper-img"
+            src={JavaLogo}
+            alt="Java Logo"
+          />
+          <h6 className="skills-items-text">
+            <bold>Java</bold>
+          </h6>
+        </div>
+        <div className="skills-items">
+          <img
+            draggable="false"
+            className="skills-wrapper-img"
+            src={ReduxLogo}
+            alt="Redux Logo"
+          />
+          <h6 className="skills-items-text">
+            <bold>Redux</bold>
+          </h6>
+        </div>
+        <div className="skills-items">
           <img
             draggable="false"
             className="skills-wrapper-img"
             src={SqlLogo}
             alt="SQL Logo"
           />
-        </BootstrapTooltip>
-        <BootstrapTooltip
-          leaveDelay={200}
-          TransitionComponent={Zoom}
-          title="HTML"
-          placement="top"
-          arrow
-        >
+          <h6 className="skills-items-text">
+            <bold>SQL</bold>
+          </h6>
+        </div>
+        <div className="skills-items">
+          <img
+            draggable="false"
+            className="skills-wrapper-img"
+            src={GitLogo}
+            alt="GIT Logo"
+          />
+          <h6 className="skills-items-text">
+            <bold>GIT</bold>
+          </h6>
+        </div>
+        <div className="skills-items">
           <img
             draggable="false"
             className="skills-wrapper-img"
             src={HtmlLogo}
             alt="HTML Logo"
           />
-        </BootstrapTooltip>
-        <BootstrapTooltip
-          leaveDelay={200}
-          TransitionComponent={Zoom}
-          title="CSS"
-          placement="top"
-          arrow
-        >
+          <h6 className="skills-items-text">
+            <bold>HTML</bold>
+          </h6>
+        </div>
+        <div className="skills-items">
           <img
             draggable="false"
             className="skills-wrapper-img"
             src={CssLogo}
             alt="CSS Logo"
           />
-        </BootstrapTooltip>
-        <BootstrapTooltip
-          leaveDelay={200}
-          TransitionComponent={Zoom}
-          title="Selenium"
-          placement="top"
-          arrow
-        >
+          <h6 className="skills-items-text">
+            <bold>CSS</bold>
+          </h6>
+        </div>
+        <div className="skills-items">
           <img
             draggable="false"
             className="skills-wrapper-img"
             src={SeleniumLogo}
             alt="Selenium Logo"
           />
-        </BootstrapTooltip>
-        {/* <BootstrapTooltip
-          leaveDelay={200}
-          TransitionComponent={Zoom}
-          title="Selenium"
-          placement="top"
-          arrow
-        >
+          <h6 className="skills-items-text">
+            <bold>Selenium</bold>
+          </h6>
+        </div>
+        <div className="skills-items">
           <img
             draggable="false"
             className="skills-wrapper-img"
-            src={SeleniumLogo}
-            alt="Selenium Logo"
+            src={PostmanLogo}
+            alt="Postman Logo"
           />
-        </BootstrapTooltip>
-        <BootstrapTooltip
-          leaveDelay={200}
-          TransitionComponent={Zoom}
-          title="Selenium"
-          placement="top"
-          arrow
-        >
+          <h6 className="skills-items-text">
+            <bold>Postman</bold>
+          </h6>
+        </div>
+        <div className="skills-items">
           <img
             draggable="false"
             className="skills-wrapper-img"
-            src={SeleniumLogo}
-            alt="Selenium Logo"
+            src={BootstrapLogo}
+            alt="Bootstrap Logo"
           />
-        </BootstrapTooltip>
-        <BootstrapTooltip
-          leaveDelay={200}
-          TransitionComponent={Zoom}
-          title="Selenium"
-          placement="top"
-          arrow
-        >
+          <h6 className="skills-items-text">
+            <bold>Bootstrap</bold>
+          </h6>
+        </div>
+        <div className="skills-items">
           <img
             draggable="false"
             className="skills-wrapper-img"
-            src={SeleniumLogo}
-            alt="Selenium Logo"
+            src={VsCodeLogo}
+            alt="VS Code Logo"
           />
-        </BootstrapTooltip>
-        <BootstrapTooltip
-          leaveDelay={200}
-          TransitionComponent={Zoom}
-          title="Selenium"
-          placement="top"
-          arrow
-        >
+          <h6 className="skills-items-text">
+            <bold>VS Code</bold>
+          </h6>
+        </div>
+        <div className="skills-items">
           <img
             draggable="false"
             className="skills-wrapper-img"
-            src={SeleniumLogo}
-            alt="Selenium Logo"
+            src={IntellijLogo}
+            alt="Intellij Logo"
           />
-        </BootstrapTooltip> */}
+          <h6 className="skills-items-text">
+            <bold>Intellij</bold>
+          </h6>
+        </div>
       </div>
     </div>
   );

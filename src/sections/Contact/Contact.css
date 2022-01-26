@@ -1,3 +1,8 @@
+.contact-main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .contact-text {
   font-size: 23px;
 }
@@ -22,7 +27,35 @@ i.contact-last-updated-on-opacity-0 {
 .contact-luo {
   display: block;
 }
+.contact-button-container {
+  display: flex;
+}
+.contact-buttons {
+  margin-right: 15px;
+}
+.contact-profile-img {
+  width: 225px;
+  border-radius: 50%;
+  border: 7px solid #006aff;
+  margin-right: 20px;
+  box-shadow: 0px 6px 14px -6px rgb(24 39 75 / 12%),
+    0px 10px 32px -4px rgb(24 39 75 / 10%),
+    inset 0px 0px 2px 1px rgb(24 39 75 / 5%);
+}
 /* Media Query for responsiveness */
+@media only screen and (max-width: 745px) {
+  .contact-profile-img {
+    width: 185px;
+    margin-top: 25px;
+  }
+  .contact-main-wrapper {
+    display: block;
+    /* text-align: center; */
+  }
+  .contact-profile-img-wrapper {
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 600px) {
   .contact-text {
     font-size: 20px;

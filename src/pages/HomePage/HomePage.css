@@ -1,17 +1,7 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
-  font-family: "Google Sans Regular";
-  background-color: white;
-}
-
 .main-grid-wrapper {
   display: grid;
   grid-template-columns: 0.355fr 1fr 1fr 1.5fr 0.25fr;
-  grid-template-rows: 60px calc(100vh - 60px) 20px 0.5fr 20px 0.5fr 20px 0.5fr 20px 1fr 20px 1.5fr 20px 1.5fr 10px 0.5fr;
+  grid-template-rows: 60px calc(100vh - 60px) 20px 0.5fr 20px 0.5fr 20px 0.5fr 20px 1.5fr 20px 1.5fr 20px 1.5fr 20px 1.5fr 10px 0.5fr;
   grid-gap: 10px;
 
   grid-template-areas:
@@ -26,9 +16,11 @@
     ". . . . ."
     ". projects projects projects ."
     ". . . . ."
+    ". blogs blogs blogs ."
+    ". . . . ."
     ". certificates certificates certificates ."
     ". . . . ."
-    ". contact contact intro-scroll-2 ."
+    ". contact contact contact ."
     ". . . . ."
     "footer footer footer footer footer";
 
@@ -72,6 +64,9 @@
 .grid-projects-wrapper {
   grid-area: projects;
 }
+.grid-blogs-wrapper {
+  grid-area: blogs;
+}
 .grid-certificates-wrapper {
   grid-area: certificates;
 }
@@ -98,17 +93,6 @@
 img#grid-skills-svg-image {
   width: 440px;
 }
-.card {
-  border-radius: 10px !important;
-}
-.card-body {
-  border-radius: inherit !important;
-}
-.card-img,
-.card-img-top {
-  border-radius: inherit !important;
-}
-
 /* Media Query for responsiveness */
 @media only screen and (max-width: 1205px) {
   img#grid-skills-svg-image {
@@ -141,7 +125,7 @@ img#grid-skills-svg-image {
       ". . . . ."
       ". certificates certificates certificates ."
       ". . . . ."
-      ". contact contact intro-scroll-2 ."
+      ". contact contact contact ."
       ". . . . ."
       "footer footer footer footer footer";
   }
@@ -159,7 +143,7 @@ img#grid-skills-svg-image {
 @media only screen and (max-width: 835px) {
   .main-grid-wrapper {
     grid-template-columns: 0.355fr 1fr 1fr 1.5fr 0.25fr;
-    grid-template-rows: 60px calc(100vh - 60px) 10px 1fr 10px 0.5fr 10px 0.5fr 10px 0.5fr 10px 1fr 10px 1.5fr 10px 1.5fr 10px 1fr 0.5fr;
+    grid-template-rows: 60px calc(100vh - 60px) 10px 1fr 10px 0.5fr 10px 0.5fr 10px 0.5fr 10px 1fr 10px 1.5fr 10px 1.5fr 10px 0.5fr;
     grid-template-areas:
       "navbar navbar navbar navbar navbar"
       ". introduction introduction introduction introduction ."
@@ -178,7 +162,6 @@ img#grid-skills-svg-image {
       ". . . . ."
       ". contact contact contact ."
       ". . . . ."
-      ". intro-scroll-2 intro-scroll-2 intro-scroll-2 ."
       "footer footer footer footer footer";
   }
 }

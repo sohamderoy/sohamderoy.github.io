@@ -38,9 +38,9 @@ div#navbar-list ul {
 } */
 .nav-wrapper {
   display: grid;
-  grid-template-columns: 5fr 0.75fr 1fr 1fr 1fr 1fr 0.75fr;
+  grid-template-columns: 5fr 0.75fr 1fr 1fr 1fr 0.75fr;
   /* background-color: black; */
-  grid-template-areas: ". nav-item-1 nav-item-2 nav-item-3 nav-item-4 nav-item-5 nav-item-6";
+  grid-template-areas: ". nav-item-1 nav-item-2 nav-item-3 nav-item-4 nav-item-6";
   height: 100%;
   justify-self: center;
 }
@@ -120,8 +120,8 @@ div#navbar-list ul {
 @media only screen and (max-width: 1075px) {
   .nav-wrapper {
     display: grid;
-    grid-template-columns: 4.5fr 0.75fr 1fr 1fr 1fr 1fr 0.75fr;
-    grid-template-areas: ". nav-item-1 nav-item-2 nav-item-3 nav-item-4 nav-item-5 nav-item-6";
+    grid-template-columns: 4.5fr 0.75fr 1fr 1fr 1fr 0.75fr;
+    grid-template-areas: ". nav-item-1 nav-item-2 nav-item-3 nav-item-4 nav-item-6";
     height: 100%;
     justify-self: center;
   }
@@ -129,8 +129,8 @@ div#navbar-list ul {
 @media only screen and (max-width: 975px) {
   .nav-wrapper {
     display: grid;
-    grid-template-columns: 3fr 0.75fr 1fr 1fr 1fr 1fr 0.75fr;
-    grid-template-areas: ". nav-item-1 nav-item-2 nav-item-3 nav-item-4 nav-item-5 nav-item-6";
+    grid-template-columns: 3fr 0.75fr 1fr 1fr 1fr 0.75fr;
+    grid-template-areas: ". nav-item-1 nav-item-2 nav-item-3 nav-item-4 nav-item-6";
     height: 100%;
     justify-self: center;
   }
@@ -138,8 +138,8 @@ div#navbar-list ul {
 @media only screen and (max-width: 850px) {
   .nav-wrapper {
     display: grid;
-    grid-template-columns: 2fr 0.75fr 1fr 1fr 1fr 1fr 0.75fr;
-    grid-template-areas: ". nav-item-1 nav-item-2 nav-item-3 nav-item-4 nav-item-5 nav-item-6";
+    grid-template-columns: 2fr 0.75fr 1fr 1fr 1fr 0.75fr;
+    grid-template-areas: ". nav-item-1 nav-item-2 nav-item-3 nav-item-4 nav-item-6";
     height: 100%;
     justify-self: center;
   }
@@ -147,8 +147,8 @@ div#navbar-list ul {
 @media only screen and (max-width: 725px) {
   .nav-wrapper {
     display: grid;
-    grid-template-columns: 1fr 0.75fr 1fr 1fr 1fr 1fr 0.75fr;
-    grid-template-areas: ". nav-item-1 nav-item-2 nav-item-3 nav-item-4 nav-item-5 nav-item-6";
+    grid-template-columns: 1fr 0.75fr 1fr 1fr 1fr 0.75fr;
+    grid-template-areas: ". nav-item-1 nav-item-2 nav-item-3 nav-item-4 nav-item-6";
     height: 100%;
     justify-self: center;
   }

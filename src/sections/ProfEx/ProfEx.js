@@ -21,9 +21,7 @@ const ProfEx = () => {
         </div>
         <div className="prof-ex-mastercard">
           <h2 className="prof-ex-company">Mastercard</h2>
-          <h3 className="prof-ex-title">
-            Software Development Engineer in Test I
-          </h3>
+          <h3 className="prof-ex-title">Software Engineer I</h3>
           <i className="prof-ex-time">August 2020 - Present</i>
           <div className="prof-ex-content-wrapper">
             {/* <ul>
