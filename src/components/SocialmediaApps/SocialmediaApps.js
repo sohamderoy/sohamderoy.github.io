@@ -72,7 +72,7 @@ const SocialmediaApps = () => {
         />
       </a>
 
-      <a
+      {/* <a
         target="_blank"
         href={process.env.REACT_APP_FACEBOOK_URL}
         rel="noreferrer nofollow"
@@ -83,7 +83,7 @@ const SocialmediaApps = () => {
           src={FacebookLogo}
           alt="Facebook Logo"
         />
-      </a>
+      </a> */}
     </div>
   );
 };

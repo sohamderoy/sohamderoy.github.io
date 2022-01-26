@@ -69,7 +69,7 @@ const Projects = () => {
             githubLink="https://github.com/sohamderoy/todoapp"
           />
         </div>
-        <div className="projects-card-4-wrapper">
+        {/* <div className="projects-card-4-wrapper">
           <PortfolioCard
             isImg={true}
             isTitle={true}
@@ -86,7 +86,7 @@ const Projects = () => {
             projectLink="https://www.sohamderoy.dev/calida/"
             githubLink="https://github.com/sohamderoy/calida"
           />
-        </div>
+        </div> */}
 
         {/* <div className="projects-card-5-wrapper">
           <PortfolioCard
