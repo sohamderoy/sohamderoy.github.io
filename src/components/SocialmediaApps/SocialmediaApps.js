@@ -2,7 +2,7 @@ import React from "react";
 import "./SocialmediaApps.css";
 import FacebookLogo from "../../assets/social-media-apps/facebook.svg";
 import GithubLogo from "../../assets/social-media-apps/github.svg";
-import GoogleLogo from "../../assets/social-media-apps/google.svg";
+import GmailLogo from "../../assets/social-media-apps/gmail.svg";
 import LinkedinLogo from "../../assets/social-media-apps/linkedin.svg";
 import HashnodeLogo from "../../assets/social-media-apps/hashnode.svg";
 import DevtoLogo from "../../assets/social-media-apps/devto.svg";
@@ -67,7 +67,7 @@ const SocialmediaApps = () => {
         <img
           className="social-media-icons"
           draggable="false"
-          src={GoogleLogo}
+          src={GmailLogo}
           alt="Google Logo"
         />
       </a>
