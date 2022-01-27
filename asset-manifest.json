@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c8662e9e.chunk.css",
-    "main.js": "/static/js/main.4ac0c908.chunk.js",
-    "main.js.map": "/static/js/main.4ac0c908.chunk.js.map",
+    "main.js": "/static/js/main.3ae0e103.chunk.js",
+    "main.js.map": "/static/js/main.3ae0e103.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c8216193.js",
     "runtime-main.js.map": "/static/js/runtime-main.c8216193.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
@@ -23,7 +23,7 @@
     "static/media/facebook.8d10d256.svg": "/static/media/facebook.8d10d256.svg",
     "static/media/git.6d27b5e0.svg": "/static/media/git.6d27b5e0.svg",
     "static/media/github.af2c4d77.svg": "/static/media/github.af2c4d77.svg",
-    "static/media/google.f3dd639c.svg": "/static/media/google.f3dd639c.svg",
+    "static/media/gmail.9f8b811a.svg": "/static/media/gmail.9f8b811a.svg",
     "static/media/hashnode.d72e02a1.svg": "/static/media/hashnode.d72e02a1.svg",
     "static/media/html5.8ae3d4ad.svg": "/static/media/html5.8ae3d4ad.svg",
     "static/media/iitk-logo.9a9bffee.jpg": "/static/media/iitk-logo.9a9bffee.jpg",
@@ -50,6 +50,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.20ad9da9.chunk.js",
     "static/css/main.c8662e9e.chunk.css",
-    "static/js/main.4ac0c908.chunk.js"
+    "static/js/main.3ae0e103.chunk.js"
   ]
 }
