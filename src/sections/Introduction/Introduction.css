@@ -32,6 +32,7 @@ h3 {
 }
 p {
   color: #5f6368;
+  letter-spacing: -0.15px;
 }
 .hello-text-blue {
   color: var(--ldhr-blue);
@@ -52,7 +53,7 @@ p {
   margin-top: 25px;
 }
 .intro-skills {
-  border: 1px solid #d5d5d5;
+  border: 1px solid rgb(225, 225, 225);
   align-self: center;
   align-items: center;
   border-radius: 20px;

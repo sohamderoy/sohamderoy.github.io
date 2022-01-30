@@ -64,7 +64,7 @@ const Projects = () => {
             tooltipText="A todo Application, made with React. Uses local browser local memory to save the todos. Implements functional components, and react hooks like useState, useEffect."
             title="todoapp"
             subtile="#React #BrowserLocalMemory"
-            text="A todo Application, made with React. Uses local browser local memory to save ..."
+            text="A todo Application, made with React. Uses local browser local memory ..."
             projectLink="https://www.sohamderoy.dev/todoapp/"
             githubLink="https://github.com/sohamderoy/todoapp"
           />

@@ -54,7 +54,7 @@ html {
 @font-face {
   font-family: "Outfit Regular";
   font-display: swap;
-  src: url("./assets/fonts/Outfit-Regular.ttf") format("truetype");
+  src: url("./assets/fonts/Montserrat-Regular.ttf") format("truetype");
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
