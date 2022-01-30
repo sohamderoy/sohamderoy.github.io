@@ -54,7 +54,7 @@ const Introduction = () => {
       <div>
         <h3 className="intro-hello-text">
           <span className={`${helloTextClass}`}>{helloText} </span>
-          {/* <span className="intro-hi-emoji">👋</span> */}
+          <span className="intro-hi-emoji">👋</span>
           <span> I am</span>
         </h3>
         <h1 className="intro-name">Soham De Roy</h1>

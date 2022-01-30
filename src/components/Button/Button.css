@@ -20,6 +20,7 @@
   box-shadow: 0px 6px 14px -6px rgb(24 39 75 / 12%),
     0px 10px 32px -4px rgb(24 39 75 / 10%),
     inset 0px 0px 2px 1px rgb(24 39 75 / 5%);
+  /* border: 1px solid #dfdfdf; */
 }
 .button:disabled {
   cursor: not-allowed;

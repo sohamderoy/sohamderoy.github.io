@@ -5,7 +5,6 @@
 }
 .intro-name {
   font-size: 4.5rem;
-  font-weight: 900;
   line-height: 1.2;
 }
 .intro-title {
@@ -66,7 +65,7 @@ p {
   line-height: 20px;
   color: #3b3b3b;
   margin-left: 10px;
-  font-family: "Archivo", sans-serif;
+  font-family: "Outfit Regular";
   letter-spacing: 0.45px;
 }
 .intro-skills-img {

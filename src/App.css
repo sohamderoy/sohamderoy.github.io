@@ -1,10 +1,9 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: "Google Sans Regular";
+  font-family: "Outfit Regular";
   background-color: white;
 }
 
@@ -28,7 +27,7 @@
     ". . . . ."
     ". certificates certificates certificates ."
     ". . . . ."
-    ". contact contact intro-scroll-2 ."
+    ". contact contact contact ."
     ". . . . ."
     "footer footer footer footer footer";
 
@@ -90,7 +89,7 @@
 }
 .section-title {
   font-size: 3rem;
-  font-weight: 900;
+  font-weight: 500;
   line-height: 1.2;
   margin-top: 25px;
   margin-bottom: 15px;
@@ -185,7 +184,7 @@ img#grid-skills-svg-image {
 @media only screen and (max-width: 768px) {
   .section-title {
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 500;
     line-height: 1.2;
     margin-bottom: 25px;
   }

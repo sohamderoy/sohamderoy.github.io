@@ -12,7 +12,7 @@ import Contact from "../../sections/Contact/Contact";
 import Footer from "../../sections/Footer/Footer";
 import NavBar from "../../components/NavBar/NavBar";
 
-import SkillsImage from "../../assets/skills/undraw_Coding4.svg";
+import SkillsImage from "../../assets/skills/undraw_Coding5.svg";
 const IndexPage = () => {
   return (
     <div>
