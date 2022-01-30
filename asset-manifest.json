@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.f65335c7.chunk.css",
-    "main.js": "/static/js/main.0384638d.chunk.js",
-    "main.js.map": "/static/js/main.0384638d.chunk.js.map",
+    "main.css": "/static/css/main.f09e5a32.chunk.css",
+    "main.js": "/static/js/main.31bad71c.chunk.js",
+    "main.js.map": "/static/js/main.31bad71c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c8216193.js",
     "runtime-main.js.map": "/static/js/runtime-main.c8216193.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
@@ -10,9 +10,9 @@
     "static/js/2.20ad9da9.chunk.js.map": "/static/js/2.20ad9da9.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.f65335c7.chunk.css.map": "/static/css/main.f65335c7.chunk.css.map",
+    "static/css/main.f09e5a32.chunk.css.map": "/static/css/main.f09e5a32.chunk.css.map",
     "static/js/2.20ad9da9.chunk.js.LICENSE.txt": "/static/js/2.20ad9da9.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/Outfit-Regular.8422587f.ttf",
+    "static/media/index.css": "/static/media/Montserrat-Regular.ac98a5f5.ttf",
     "static/media/bootstrap2.544821a7.svg": "/static/media/bootstrap2.544821a7.svg",
     "static/media/certs-2.ecc9e165.png": "/static/media/certs-2.ecc9e165.png",
     "static/media/certs-3.ea116934.jpg": "/static/media/certs-3.ea116934.jpg",
@@ -48,7 +48,7 @@
     "static/js/runtime-main.c8216193.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.20ad9da9.chunk.js",
-    "static/css/main.f65335c7.chunk.css",
-    "static/js/main.0384638d.chunk.js"
+    "static/css/main.f09e5a32.chunk.css",
+    "static/js/main.31bad71c.chunk.js"
   ]
 }
