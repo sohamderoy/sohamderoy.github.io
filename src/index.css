@@ -52,7 +52,7 @@ html {
     url("./assets/fonts/GoogleSans-Regular.ttf") format("woff");
 } */
 @font-face {
-  font-family: "Outfit Regular";
+  font-family: "Montserrat Regular";
   font-display: swap;
   src: url("./assets/fonts/Montserrat-Regular.ttf") format("truetype");
 }
@@ -63,7 +63,7 @@ code {
 body {
   margin: 0;
   scroll-behavior: smooth;
-  font-family: "Outfit Regular";
+  font-family: "Montserrat Regular";
 }
 :root {
   --ldhr-blue: #006aff;

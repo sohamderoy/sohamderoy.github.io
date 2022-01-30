@@ -12,6 +12,7 @@ const PortfolioCard = ({
   isProjectLink,
   isGithubLink,
   isViewCertificate,
+  isReadBlog,
   tooltipText,
   imgPath,
   title,
@@ -20,6 +21,7 @@ const PortfolioCard = ({
   projectLink,
   githubLink,
   certificateLink,
+  blogLink,
 }) => {
   const useStylesBootstrap = makeStyles((theme) => ({
     arrow: {
@@ -28,7 +30,7 @@ const PortfolioCard = ({
     tooltip: {
       backgroundColor: theme.palette.common.black,
       fontSize: "1rem",
-      fontFamily: "Outfit Regular",
+      fontFamily: "Montserrat Regular",
     },
   }));
   function BootstrapTooltip(props) {
@@ -59,6 +61,11 @@ const PortfolioCard = ({
           {isViewCertificate && (
             <Card.Link target="_blank" href={certificateLink}>
               View Certificate
+            </Card.Link>
+          )}
+          {isReadBlog && (
+            <Card.Link target="_blank" href={blogLink}>
+              Read Blog
             </Card.Link>
           )}
         </Card.Body>

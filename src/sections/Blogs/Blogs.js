@@ -1,9 +1,10 @@
 import React from "react";
 import PortfolioCard from "../../components/PortfolioCard/PortfolioCard";
 import Button from "../../components/Button/Button";
-import project1 from "../../assets/projects/project1.PNG";
-import project2 from "../../assets/projects/project2.PNG";
-import project3 from "../../assets/projects/project3.PNG";
+import project1 from "../../assets/blogs/blog1.png";
+import project2 from "../../assets/blogs/blog2.png";
+import project3 from "../../assets/blogs/blog3.png";
+import project4 from "../../assets/blogs/blog4.png";
 
 import "./Blogs.css";
 
@@ -18,54 +19,45 @@ const Projects = () => {
           <PortfolioCard
             isImg={true}
             isTitle={true}
-            isSubtitle={true}
-            isText={true}
-            isProjectLink={true}
-            isGithubLink={true}
+            isSubtitle={false}
+            isText={false}
+            isProjectLink={false}
+            isGithubLink={false}
+            isReadBlog={true}
             isViewCertificate={false}
-            imgPath={project1}
-            tooltipText="Building a Software Developer Portfolio with clean design that will help to showcase your work and skills as a software developer. Personal website hosted on: sohamderoy.dev"
-            title="sohamderoy.github.io"
-            subtile="Developer portfolio made with React"
-            text="Building a Software Developer Portfolio with clean design that will help to showcase ..."
-            projectLink="https://sohamderoy.dev"
-            githubLink="https://github.com/sohamderoy/sohamderoy.github.io"
+            imgPath={project4}
+            title="How to Google like a Pro"
+            blogLink="https://blog.sohamderoy.dev/how-to-google-like-a-pro-10tips"
           />
         </div>
         <div className="projects-card-2-wrapper">
           <PortfolioCard
             isImg={true}
             isTitle={true}
-            isSubtitle={true}
-            isText={true}
-            isProjectLink={true}
-            isGithubLink={true}
+            isSubtitle={false}
+            isText={false}
+            isProjectLink={false}
+            isGithubLink={false}
+            isReadBlog={true}
             isViewCertificate={false}
-            imgPath={project2}
-            tooltipText="A responsive dummy website deployment site using CSS grid. Hosted on Netlify."
-            title="calida"
-            subtile="Card Subtitle"
-            text="A responsive dummy website deployment site using CSS grid. Hosted on Netlify."
-            projectLink="https://www.sohamderoy.dev/calida/"
-            githubLink="https://github.com/sohamderoy/calida"
+            imgPath={project3}
+            title="Understanding Tailwind CSS"
+            blogLink="https://blog.sohamderoy.dev/understanding-tailwind-css"
           />
         </div>
         <div className="projects-card-3-wrapper">
           <PortfolioCard
             isImg={true}
             isTitle={true}
-            isSubtitle={true}
-            isText={true}
-            isProjectLink={true}
-            isGithubLink={true}
+            isSubtitle={false}
+            isText={false}
+            isProjectLink={false}
+            isGithubLink={false}
+            isReadBlog={true}
             isViewCertificate={false}
-            imgPath={project3}
-            tooltipText="A todo Application, made with React. Uses local browser local memory to save the todos. Implements functional components, and react hooks like useState, useEffect."
-            title="todoapp"
-            subtile="Card Subtitle"
-            text="A todo Application, made with React. Uses local browser local memory to save ..."
-            projectLink="https://www.sohamderoy.dev/todoapp/"
-            githubLink="https://github.com/sohamderoy/todoapp"
+            imgPath={project2}
+            title="Important GIT commands"
+            blogLink="https://blog.sohamderoy.dev/important-git-commands-youll-need-to-know-part-2-for-the-major-part-of-your-work"
           />
         </div>
         {/* <div className="projects-card-4-wrapper">
@@ -124,9 +116,9 @@ const Projects = () => {
         </div> */}
       </div>
       <Button
-        path={process.env.REACT_APP_GITHUB_URL}
+        path={process.env.REACT_APP_BLOG_URL}
         buttonType="button-primary"
-        buttonText="More on Github"
+        buttonText="Read More"
       />
     </div>
   );

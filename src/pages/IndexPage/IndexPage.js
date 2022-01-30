@@ -10,6 +10,7 @@ import Certificates from "../../sections/Certificates/Certificates";
 import Contact from "../../sections/Contact/Contact";
 import Footer from "../../sections/Footer/Footer";
 import NavBar from "../../components/NavBar/NavBar";
+import Blogs from "../../sections/Blogs/Blogs";
 
 import SkillsImage from "../../assets/skills/undraw_Coding5.svg";
 const IndexPage = () => {
@@ -45,9 +46,9 @@ const IndexPage = () => {
         <div className="grid-projects-wrapper">
           <Projects />
         </div>
-        {/* <div className="grid-certificates-wrapper">
-          <Certificates />
-        </div> */}
+        <div className="grid-certificates-wrapper">
+          <Blogs />
+        </div>
         <div className="grid-contact-wrapper">
           <Contact />
         </div>

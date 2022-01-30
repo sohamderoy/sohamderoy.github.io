@@ -25,6 +25,7 @@ const Projects = () => {
             isGithubLink={true}
             isViewCertificate={false}
             imgPath={project4}
+            isReadBlog={false}
             tooltipText="Airbnb application clone made with Next JS and styled with Tailwind CSS."
             title="Airbnb Clone"
             subtile="#NextJs #TailwindCss #MapBox #SSR"
@@ -43,6 +44,7 @@ const Projects = () => {
             isGithubLink={true}
             isViewCertificate={false}
             imgPath={project1}
+            isReadBlog={false}
             tooltipText="A Software Developer Portfolio with clean design that will help to showcase your work and skills as a software developer. Personal website hosted on: sohamderoy.dev"
             title="Developer Portfolio"
             subtile="#React #CssGrid #ResponsiveUi"
@@ -61,6 +63,7 @@ const Projects = () => {
             isGithubLink={true}
             isViewCertificate={false}
             imgPath={project2}
+            isReadBlog={false}
             tooltipText="A todo Application, made with React. Uses local browser local memory to save the todos. Implements functional components, and react hooks like useState, useEffect."
             title="todoapp"
             subtile="#React #BrowserLocalMemory"
