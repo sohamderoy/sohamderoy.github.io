@@ -11,20 +11,21 @@ img.skills-wrapper-img {
   transition: all 0.2s ease-out;
 }
 
-img.skills-wrapper-img:hover {
-  /* background-color: #f1f1f1; */
-  /* border-radius: 50%; */
-}
+/* img.skills-wrapper-img:hover {
+  background-color: #f1f1f1;
+  border-radius: 50%;
+} */
 .skills-items {
   text-align: center;
   margin: 10px;
   border: 1px solid rgb(225, 225, 225);
   border-radius: 10px;
+  transition: all 0.2s ease-out;
 }
 .skills-items:hover {
-  transform: translateY(-3px);
-  transition: all 0.3s ease-out;
+  box-shadow: 0 20px 30px -10px rgb(0 0 0 / 20%);
   cursor: pointer;
+  transform: translateY(-3px);
 }
 
 h6.skills-items-text {

@@ -54,13 +54,16 @@ const Introduction = () => {
       <div>
         <h3 className="intro-hello-text">
           <span className={`${helloTextClass}`}>{helloText} </span>
-          <span className="intro-hi-emoji">👋</span>
+          {/* <span className="intro-hi-emoji">👋</span> */}
           <span> I am</span>
         </h3>
         <h1 className="intro-name">Soham De Roy</h1>
         <h3 className="intro-title">
           SE 1 @ Mastercard • Tech Blogger • IIT Kanpur
         </h3>
+        <h6 className="current-location">
+          <span>📍</span> Pune, India
+        </h6>
         <div className="intro-skills-wrapper">
           <span className="intro-skills visibility-hidden-2">
             <img

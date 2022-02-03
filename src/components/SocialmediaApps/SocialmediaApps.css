@@ -1,6 +1,8 @@
 .social-media-icons {
   margin-right: 10px;
+  transition: all 0.2s ease-out;
 }
 .social-media-icons:hover {
   cursor: pointer;
+  transform: translateY(-3px);
 }

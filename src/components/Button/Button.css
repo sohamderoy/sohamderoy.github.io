@@ -73,3 +73,9 @@ button:active {
     inset 2px 2px 2px rgba(255, 255, 255, 0.075),
     inset 2px 2px 4px rgba(0, 0, 0, 0.15);
 } */
+
+@media only screen and (max-width: 434px) {
+  .button-wrapper {
+    padding-top: 15px;
+  }
+}

@@ -50,7 +50,7 @@ const Projects = () => {
             subtile="#React #CssGrid #ResponsiveUi"
             text="A Software Developer Portfolio with clean design that will help to showcase ..."
             projectLink="https://sohamderoy.dev"
-            githubLink="https://github.com/sohamderoy/sohamderoy.github.io"
+            githubLink="https://github.com/sohamderoy/sohamderoy.github.io/tree/new-react-portfolio"
           />
         </div>
         <div className="projects-card-3-wrapper">

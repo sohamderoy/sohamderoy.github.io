@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: "Montserrat Regular";
+  font-family: "Montserrat Regular", Arial, Helvetica, sans-serif;
   background-color: white;
 }
 
@@ -106,6 +106,10 @@ img#grid-skills-svg-image {
 .card-img,
 .card-img-top {
   border-radius: inherit !important;
+}
+.current-location {
+  font-weight: bold;
+  color: #5f6368;
 }
 
 /* Media Query for responsiveness */

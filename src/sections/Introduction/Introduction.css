@@ -9,7 +9,7 @@
 }
 .intro-title {
   font-size: 23px;
-  font-weight: 500;
+  font-weight: 700;
   color: #006aff;
 }
 .introduction-main-container {
@@ -182,5 +182,35 @@ a.intro-skills-more:hover {
     font-size: 3rem;
     font-weight: 300;
     line-height: 1.2;
+  }
+}
+@media only screen and (max-width: 545px) {
+  h3.intro-hello-text {
+    font-size: 35px;
+    font-weight: 900;
+    transition: all 0.2s ease-out;
+  }
+  .intro-name {
+    font-size: 3.35rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+@media only screen and (max-width: 505px) {
+  .intro-name {
+    font-size: 2.65rem;
+    font-weight: 300;
+    line-height: 1.2;
+    /* letter-spacing: -6px; */
+  }
+  h3.intro-hello-text {
+    font-size: 28px;
+    font-weight: 900;
+    transition: all 0.2s ease-out;
+  }
+  .intro-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #006aff;
   }
 }

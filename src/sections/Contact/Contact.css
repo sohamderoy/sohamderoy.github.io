@@ -1,7 +1,20 @@
 .contact-main-wrapper {
-  display: flex;
+  cursor: pointer;
+  display: inline-flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.2s ease-out;
+  /* box-shadow: 0px 6px 14px -6px rgb(24 39 75 / 12%),
+    0px 10px 32px -4px rgb(24 39 75 / 10%),
+    inset 0px 0px 2px 1px rgb(24 39 75 / 5%); */
+}
+.contact-main-wrapper:hover {
+  box-shadow: 0 20px 30px -10px rgb(0 0 0 / 20%);
+  cursor: pointer;
+  transform: translateY(-3px);
 }
 .contact-text {
   font-size: 23px;
@@ -15,6 +28,16 @@ i.contact-last-updated-on {
   font-size: 12px;
   color: rgb(65, 65, 65);
 }
+.contact-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.contact-title {
+  font-size: 20px;
+  color: #006aff;
+  font-weight: 700;
+}
+
 /* i.contact-last-updated-on-white {
   font-size: 12px;
   color: rgb(255, 255, 255);
@@ -28,15 +51,15 @@ i.contact-last-updated-on-opacity-0 {
   display: block;
 }
 .contact-button-container {
-  display: flex;
+  display: inline-flex;
 }
 .contact-buttons {
   margin-right: 15px;
 }
 .contact-profile-img {
-  width: 225px;
+  width: 200px;
   border-radius: 50%;
-  border: 7px solid #006aff;
+  border: 1px solid #d9d9d9;
   margin-right: 20px;
   box-shadow: 0px 6px 14px -6px rgb(24 39 75 / 12%),
     0px 10px 32px -4px rgb(24 39 75 / 10%),
@@ -50,14 +73,31 @@ i.contact-last-updated-on-opacity-0 {
   }
   .contact-main-wrapper {
     display: block;
-    /* text-align: center; */
+    text-align: center;
   }
   .contact-profile-img-wrapper {
+    text-align: center;
+  }
+  .contact-text-wrapper {
     text-align: center;
   }
 }
 @media only screen and (max-width: 600px) {
   .contact-text {
     font-size: 20px;
+  }
+}
+@media only screen and (max-width: 434px) {
+  .contact-button-container {
+    display: block;
+  }
+  .contact-name {
+    font-size: 2.25rem;
+    font-weight: bold;
+  }
+  .contact-title {
+    font-size: 18px;
+    color: #006aff;
+    font-weight: 700;
   }
 }
