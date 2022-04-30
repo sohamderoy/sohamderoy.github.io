@@ -59,7 +59,7 @@ const Introduction = () => {
         </h3>
         <h1 className="intro-name">Soham De Roy</h1>
         <h3 className="intro-title">
-          SE 1 @ Mastercard • Tech Blogger • IIT Kanpur
+          SDE 2 @ Mastercard • Tech Blogger • IIT Kanpur
         </h3>
         <h6 className="current-location">
           <span>📍</span> Pune, India
