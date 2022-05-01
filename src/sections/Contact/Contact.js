@@ -26,7 +26,7 @@ const Contact = () => {
         <div>
           <h1 className="contact-name">Soham De Roy</h1>
           <h3 className="contact-title">
-            SE 1 @ Mastercard • Tech Blogger • IIT Kanpur
+            SDE 2 @ Mastercard • Tech Blogger • IIT Kanpur
           </h3>
           <h6 className="current-location">
             <span>📍</span> Pune, India

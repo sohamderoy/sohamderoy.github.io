@@ -2,17 +2,18 @@
   display: grid;
   grid-template-columns: 0.5fr 3fr;
   grid-template-rows: 1fr;
-  grid-template-areas: "mastercard-logo mastercard";
+  grid-template-areas: "company-logo company-name";
+  align-items: center;
   /* "anothercompany-logo anothercompany"; */
 }
-.prof-ex-mastercard-img {
-  grid-area: mastercard-logo;
-  text-align: center;
+.prof-ex-company-logo-img {
+  grid-area: company-logo;
+  text-align: left;
 }
-.prof-ex-mastercard {
-  grid-area: mastercard;
+.prof-ex-company-name {
+  grid-area: company-name;
 }
-.prof-ex-mastercard-img > img {
+.prof-ex-company-logo-img > img {
   width: 150px;
 }
 h3.prof-ex-title {
@@ -34,10 +35,24 @@ img.prof-ex-wrapper-img {
   font-size: 0.95rem;
   color: #5f6368;
 }
-.prof-ex-mastercard-img > img {
+.prof-ex-company-logo-img > img {
   width: 100px;
   /* box-shadow: 0px 0px 20px 5px #ff5f0030; */
   border-radius: 50%;
+}
+.prof-ex-absolute-time{
+    display: inline-block;
+    padding: 3px !important;
+    font-size: 12px;
+    border-radius: 4px;
+    color: white;
+    padding-left: 2px;
+    font-weight: 700;
+    margin: 0;
+    background: linear-gradient(90deg, rgba(32,39,230,1) 6%, rgba(214,0,255,1) 100%);
+}
+.css-16u30nb-TimelineControlContainer,.e1gmwefz1{
+  display: none !important;
 }
 /* .prof-ex-anothercompany-img {
   grid-area: anothercompany-logo;
@@ -49,15 +64,15 @@ img.prof-ex-wrapper-img {
   width: 150px;
 } */
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .prof-ex-wrapper {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 0.75fr;
 
     grid-template-areas:
-      "mastercard-logo"
-      "mastercard";
-    /* "anothercompany-logo anothercompany"; */
+      "company-logo"
+      "company-name";
+   
   }
-}
+} */
