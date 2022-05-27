@@ -40,18 +40,19 @@ img.prof-ex-wrapper-img {
   /* box-shadow: 0px 0px 20px 5px #ff5f0030; */
   border-radius: 50%;
 }
-.prof-ex-absolute-time{
-    display: inline-block;
-    padding: 3px !important;
-    font-size: 12px;
-    border-radius: 4px;
-    color: white;
-    padding-left: 2px;
-    font-weight: 700;
-    margin: 0;
-    background: linear-gradient(90deg, rgba(32,39,230,1) 6%, rgba(214,0,255,1) 100%);
+.prof-ex-absolute-time {
+  display: inline-block;
+  padding: 3px !important;
+  font-size: 12px;
+  border-radius: 4px;
+  color: black;
+  padding-left: 2px;
+  font-weight: 700;
+  margin: 0;
+  border: 2px solid #006aff;
 }
-.css-16u30nb-TimelineControlContainer,.e1gmwefz1{
+.css-16u30nb-TimelineControlContainer,
+.e1gmwefz1 {
   display: none !important;
 }
 /* .prof-ex-anothercompany-img {

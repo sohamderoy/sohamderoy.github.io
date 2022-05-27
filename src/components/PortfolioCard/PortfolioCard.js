@@ -30,7 +30,7 @@ const PortfolioCard = ({
     tooltip: {
       backgroundColor: theme.palette.common.black,
       fontSize: "1rem",
-      fontFamily: "Montserrat Regular",
+      fontFamily: "Sofia Pro",
     },
   }));
   function BootstrapTooltip(props) {
