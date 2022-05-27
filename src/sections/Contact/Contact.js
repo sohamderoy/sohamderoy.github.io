@@ -35,14 +35,14 @@ const Contact = () => {
           <div className="contact-button-container">
             <div className="contact-buttons">
               <Button
-                path={process.env.REACT_APP_RESUME_URL}
+                path="https://drive.google.com/file/d/15Sh-o0cP00J64pgAc4hvA_MBsqOrsFOa/view?usp=sharing"
                 buttonType="button-primary"
                 buttonText="Resume"
               />
             </div>
             <div className="contact-buttons">
               <Button
-                path={process.env.REACT_APP_BLOG_URL}
+                path="https://blog.sohamderoy.dev/"
                 buttonType="button-secondary"
                 buttonText="Blogs"
               />

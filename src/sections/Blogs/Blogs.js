@@ -116,7 +116,7 @@ const Projects = () => {
         </div> */}
       </div>
       <Button
-        path={process.env.REACT_APP_BLOG_URL}
+        path="https://blog.sohamderoy.dev/"
         buttonType="button-primary"
         buttonText="Read More"
       />

@@ -129,7 +129,7 @@ const Projects = () => {
         </div> */}
       </div>
       <Button
-        path={process.env.REACT_APP_GITHUB_URL}
+        path="https://github.com/sohamderoy"
         buttonType="button-primary"
         buttonText="More on Github"
       />

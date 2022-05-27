@@ -12,7 +12,7 @@ const SocialmediaApps = () => {
     <div>
       <a
         target="_blank"
-        href={process.env.REACT_APP_LINKEDIN_URL}
+        href="https://www.linkedin.com/in/sohamderoy/"
         rel="noreferrer nofollow"
       >
         <img
@@ -24,7 +24,7 @@ const SocialmediaApps = () => {
       </a>
       <a
         target="_blank"
-        href={process.env.REACT_APP_GITHUB_URL}
+        href="https://github.com/sohamderoy"
         rel="noreferrer nofollow"
       >
         <img
@@ -36,7 +36,7 @@ const SocialmediaApps = () => {
       </a>
       <a
         target="_blank"
-        href={process.env.REACT_APP_BLOG_URL}
+        href="https://blog.sohamderoy.dev/"
         rel="noreferrer nofollow"
       >
         <img
@@ -48,7 +48,7 @@ const SocialmediaApps = () => {
       </a>
       <a
         target="_blank"
-        href={process.env.REACT_APP_DEV_TO_URL}
+        href="https://dev.to/sohamderoy"
         rel="noreferrer nofollow"
       >
         <img
@@ -61,7 +61,7 @@ const SocialmediaApps = () => {
 
       <a
         target="_blank"
-        href={process.env.REACT_APP_GMAIL_URL}
+        href="mailto:sohamderoy.iitk@gmail.com"
         rel="noreferrer nofollow"
       >
         <img
