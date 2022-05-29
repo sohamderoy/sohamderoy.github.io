@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.c6b37033.chunk.css",
-    "main.js": "/static/js/main.27e42da6.chunk.js",
-    "main.js.map": "/static/js/main.27e42da6.chunk.js.map",
+    "main.css": "/static/css/main.44b369e4.chunk.css",
+    "main.js": "/static/js/main.d4244037.chunk.js",
+    "main.js.map": "/static/js/main.d4244037.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c8216193.js",
     "runtime-main.js.map": "/static/js/runtime-main.c8216193.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
@@ -10,9 +10,9 @@
     "static/js/2.4a39cfbe.chunk.js.map": "/static/js/2.4a39cfbe.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.c6b37033.chunk.css.map": "/static/css/main.c6b37033.chunk.css.map",
+    "static/css/main.44b369e4.chunk.css.map": "/static/css/main.44b369e4.chunk.css.map",
     "static/js/2.4a39cfbe.chunk.js.LICENSE.txt": "/static/js/2.4a39cfbe.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/Sofia-Pro-Regular-Az.d36998f5.otf",
+    "static/media/index.css": "/static/media/Sofia-Pro-UltraLight-Az.cce5e6bc.otf",
     "static/media/blog1.7de4e728.png": "/static/media/blog1.7de4e728.png",
     "static/media/blog2.1a47b178.png": "/static/media/blog2.1a47b178.png",
     "static/media/blog3.8578d774.png": "/static/media/blog3.8578d774.png",
@@ -52,7 +52,7 @@
     "static/js/runtime-main.c8216193.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.4a39cfbe.chunk.js",
-    "static/css/main.c6b37033.chunk.css",
-    "static/js/main.27e42da6.chunk.js"
+    "static/css/main.44b369e4.chunk.css",
+    "static/js/main.d4244037.chunk.js"
   ]
 }
