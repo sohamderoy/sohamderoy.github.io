@@ -55,6 +55,19 @@ img.prof-ex-wrapper-img {
 .e1gmwefz1 {
   display: none !important;
 }
+.prof-ex-company-details {
+  border: 1px solid;
+  border-radius: 10px;
+  display: inline-block;
+  border: 1px solid rgb(225, 225, 225);
+  transition: all 0.2s ease-out;
+}
+.prof-ex-company-details:hover {
+  box-shadow: 0 20px 30px -10px rgb(0 0 0 / 20%);
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+
 /* .prof-ex-anothercompany-img {
   grid-area: anothercompany-logo;
 }

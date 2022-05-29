@@ -18,6 +18,7 @@
 }
 .contact-text {
   font-size: 23px;
+  font-family: "Sofia Pro Light";
 }
 .contact-text-wrapper {
   font-size: 23px;
@@ -31,11 +32,13 @@ i.contact-last-updated-on {
 .contact-name {
   font-size: 2.5rem;
   font-weight: bold;
+  font-family: "Sofia Pro Light";
 }
 .contact-title {
   font-size: 20px;
   color: #006aff;
   font-weight: 700;
+  font-family: "Sofia Pro Light";
 }
 
 /* i.contact-last-updated-on-white {

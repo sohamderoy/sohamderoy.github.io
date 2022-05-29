@@ -46,7 +46,7 @@ const SocialmediaApps = () => {
           alt="Hashnode Logo"
         />
       </a>
-      <a
+      {/* <a
         target="_blank"
         href="https://dev.to/sohamderoy"
         rel="noreferrer nofollow"
@@ -57,7 +57,7 @@ const SocialmediaApps = () => {
           src={DevtoLogo}
           alt="Devto Logo"
         />
-      </a>
+      </a> */}
 
       <a
         target="_blank"

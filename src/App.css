@@ -3,8 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: "Sofia Pro", Arial, Helvetica, sans-serif;
-  background-color: white;
+  font-family: "Sofia Pro Regular", Arial, Helvetica, sans-serif;
 }
 
 .main-grid-wrapper {
@@ -110,6 +109,7 @@ img#grid-skills-svg-image {
 .current-location {
   font-weight: bold;
   color: #5f6368;
+  font-family: "Sofia Pro Light";
 }
 
 /* Media Query for responsiveness */
