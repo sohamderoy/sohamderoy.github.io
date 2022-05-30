@@ -33,17 +33,17 @@ const Contact = () => {
           </h6>
           <SocialmediaApps />
           <div className="contact-button-container">
-            <div className="contact-buttons">
+            {/* <div className="contact-buttons">
               <Button
                 path="https://drive.google.com/file/d/15Sh-o0cP00J64pgAc4hvA_MBsqOrsFOa/view?usp=sharing"
                 buttonType="button-primary"
                 buttonText="Resume"
               />
-            </div>
+            </div> */}
             <div className="contact-buttons">
               <Button
                 path="https://blog.sohamderoy.dev/"
-                buttonType="button-secondary"
+                buttonType="button-primary"
                 buttonText="Blogs"
               />
             </div>

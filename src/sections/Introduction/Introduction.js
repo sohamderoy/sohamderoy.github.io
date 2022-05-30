@@ -117,17 +117,17 @@ const Introduction = () => {
           <SocialmediaApps />
         </div>
         <div className="introduction-button-container">
-          <div className="introduction-buttons">
+          {/* <div className="introduction-buttons">
             <Button
               path="https://drive.google.com/file/d/15Sh-o0cP00J64pgAc4hvA_MBsqOrsFOa/view?usp=sharing"
               buttonType="button-primary"
               buttonText="Resume"
             />
-          </div>
+          </div> */}
           <div className="introduction-buttons">
             <Button
               path="https://blog.sohamderoy.dev/"
-              buttonType="button-secondary"
+              buttonType="button-primary"
               buttonText="Blogs"
             />
           </div>
