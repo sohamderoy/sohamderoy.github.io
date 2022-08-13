@@ -1,7 +1,7 @@
 import React from "react";
 import PortfolioCard from "../../components/PortfolioCard/PortfolioCard";
 import Button from "../../components/Button/Button";
-import project1 from "../../assets/blogs/blog1.png";
+// import project1 from "../../assets/blogs/blog1.png";
 import project2 from "../../assets/blogs/blog2.png";
 import project3 from "../../assets/blogs/blog3.png";
 import project4 from "../../assets/blogs/blog4.png";
@@ -26,8 +26,8 @@ const Projects = () => {
             isReadBlog={true}
             isViewCertificate={false}
             imgPath={project4}
-            title="How to Google like a Pro"
-            blogLink="https://blog.sohamderoy.dev/how-to-google-like-a-pro-10tips"
+            title="How to make a Redux powered React application?"
+            blogLink="https://www.freecodecamp.org/news/how-to-build-a-redux-powered-react-app/"
           />
         </div>
         <div className="projects-card-2-wrapper">
@@ -41,8 +41,8 @@ const Projects = () => {
             isReadBlog={true}
             isViewCertificate={false}
             imgPath={project3}
-            title="Understanding Tailwind CSS"
-            blogLink="https://blog.sohamderoy.dev/understanding-tailwind-css"
+            title="What is Redux? Understanding Store, Action and Reducers in Redux"
+            blogLink="https://www.freecodecamp.org/news/what-is-redux-store-actions-reducers-explained/"
           />
         </div>
         <div className="projects-card-3-wrapper">
@@ -56,8 +56,8 @@ const Projects = () => {
             isReadBlog={true}
             isViewCertificate={false}
             imgPath={project2}
-            title="Important GIT commands"
-            blogLink="https://blog.sohamderoy.dev/important-git-commands-youll-need-to-know-part-2-for-the-major-part-of-your-work"
+            title="How to Center a Div with CSS – 10 Different Ways"
+            blogLink="https://www.freecodecamp.org/news/how-to-center-a-div-with-css-10-different-ways/"
           />
         </div>
         {/* <div className="projects-card-4-wrapper">
@@ -116,9 +116,9 @@ const Projects = () => {
         </div> */}
       </div>
       <Button
-        path="https://blog.sohamderoy.dev/"
+        path="https://blogs.sohamderoy.dev/"
         buttonType="button-primary"
-        buttonText="Read More"
+        buttonText="Read More on freeCodeCamp"
       />
     </div>
   );

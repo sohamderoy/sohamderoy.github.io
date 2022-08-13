@@ -36,7 +36,7 @@ i.contact-last-updated-on {
 }
 .contact-title {
   font-size: 20px;
-  color: #006aff;
+  color: var(--ldhr-blue);
   font-weight: 700;
   font-family: "Sofia Pro Light";
 }
@@ -100,7 +100,7 @@ i.contact-last-updated-on-opacity-0 {
   }
   .contact-title {
     font-size: 18px;
-    color: #006aff;
+    color: var(--ldhr-blue);
     font-weight: 700;
   }
 }

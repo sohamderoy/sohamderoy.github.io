@@ -4,12 +4,12 @@
   /* font-weight: bold; */
 }
 .footer-wrapper a {
-  color: #006aff;
+  color: var(--ldhr-blue);
   text-decoration: none;
   font-weight: bold;
 }
 .footer-wrapper a:hover {
-  color: #006aff;
+  color: var(--ldhr-blue);
   text-decoration: none;
 }
 .footer-text {

@@ -65,7 +65,7 @@ const NavBar = () => {
         className="nav-item nav-item-6"
         smooth
         to={{
-          pathname: "https://blog.sohamderoy.dev/",
+          pathname: "https://blogs.sohamderoy.dev/",
         }}
         target="_blank"
         rel="noreferrer nofollow"

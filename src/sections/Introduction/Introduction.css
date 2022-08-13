@@ -12,7 +12,7 @@
 .intro-title {
   font-size: 23px;
   font-weight: 700;
-  color: #006aff;
+  color: var(--ldhr-blue);
   font-family: "Sofia Pro Light";
 }
 .introduction-main-container {
@@ -218,6 +218,6 @@ a.intro-skills-more:hover {
   .intro-title {
     font-size: 20px;
     font-weight: 700;
-    color: #006aff;
+    color: var(--ldhr-blue);
   }
 }

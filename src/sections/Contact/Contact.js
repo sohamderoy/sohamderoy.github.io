@@ -3,7 +3,7 @@ import SocialmediaApps from "../../components/SocialmediaApps/SocialmediaApps";
 import "./Contact.css";
 import Button from "../../components/Button/Button";
 import preval from "preval.macro";
-import SohamDeRoy from "../../assets/img/sohamderoy.jpg";
+import SohamDeRoy from "../../assets/img/sohamderoy.png";
 const Contact = () => {
   return (
     <div>
@@ -26,7 +26,7 @@ const Contact = () => {
         <div>
           <h1 className="contact-name">Soham De Roy</h1>
           <h3 className="contact-title">
-            SDE 2 @ Mastercard • Tech Blogger • IIT Kanpur
+            SDE 2 @ Mastercard • IIT Kanpur • Tech Blogger
           </h3>
           <h6 className="current-location">
             <span>📍</span> Pune, India
@@ -42,7 +42,7 @@ const Contact = () => {
             </div> */}
             <div className="contact-buttons">
               <Button
-                path="https://blog.sohamderoy.dev/"
+                path="https://blogs.sohamderoy.dev/"
                 buttonType="button-primary"
                 buttonText="Blogs"
               />

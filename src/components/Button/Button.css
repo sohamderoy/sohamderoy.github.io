@@ -14,7 +14,7 @@
 .button:hover {
   cursor: pointer;
   background-color: #fff;
-  color: #006aff;
+  color: var(--ldhr-blue);
   font-size: 1.1rem;
   transform: translateY(-3px);
   box-shadow: 0px 6px 14px -6px rgb(24 39 75 / 12%),
@@ -27,12 +27,12 @@
 }
 .button-secondary {
   background-color: #fff;
-  color: #006aff;
+  color: var(--ldhr-blue);
   /* border-color: black; */
   border: 1px solid #dfdfdf;
 }
 .button-primary {
-  background-color: #006aff;
+  background-color: var(--ldhr-blue);
   color: #fff;
 }
 .button-disabled {

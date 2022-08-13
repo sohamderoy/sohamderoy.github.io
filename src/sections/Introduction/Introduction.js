@@ -59,7 +59,7 @@ const Introduction = () => {
         </h3>
         <h1 className="intro-name">Soham De Roy</h1>
         <h3 className="intro-title">
-          SDE 2 @ Mastercard • Tech Blogger • IIT Kanpur
+          SDE 2 @ Mastercard • IIT Kanpur • Tech Blogger
         </h3>
         <h6 className="current-location">
           <span>📍</span> Pune, India
@@ -126,7 +126,7 @@ const Introduction = () => {
           </div> */}
           <div className="introduction-buttons">
             <Button
-              path="https://blog.sohamderoy.dev/"
+              path="https://blogs.sohamderoy.dev/"
               buttonType="button-primary"
               buttonText="Blogs"
             />

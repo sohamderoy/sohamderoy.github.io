@@ -49,7 +49,7 @@ img.prof-ex-wrapper-img {
   padding-left: 2px;
   font-weight: 700;
   margin: 0;
-  border: 2px solid #006aff;
+  border: 2px solid var(--ldhr-blue);
 }
 .css-16u30nb-TimelineControlContainer,
 .e1gmwefz1 {

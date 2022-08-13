@@ -47,8 +47,14 @@ body {
   font-family: "Sofia Pro Regular";
 }
 :root {
-  --ldhr-blue: #006aff;
-  --ldhr-red: #ff0000;
-  --ldhr-green: #13aa52;
+  --ldhr-blue: #1662f5;
+  --ldhr-red: #ff4154;
+  --ldhr-green: #0caa41;
+  --ldhr-yellow: #f9ab00;
   --ldhr-black: #282828;
 }
+
+/* --ldhr-blue: #006aff;
+  --ldhr-red: #ff0000;
+  --ldhr-green: #13aa52;
+  --ldhr-black: #282828; */

@@ -9,16 +9,16 @@
 } */
 
 .learn {
-  color: #006aff;
+  color: var(--ldhr-blue);
 }
 .design {
-  color: #ff0000;
+  color: var(--ldhr-red);
 }
 .hack {
-  color: #0caa41;
+  color: var(--ldhr-green);
 }
 .repeat {
-  color: #282828;
+  color: var(--ldhr-yellow);
 }
 .intro-scroll-main-container {
   -webkit-animation: mover 2s infinite alternate;
