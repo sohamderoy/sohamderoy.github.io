@@ -21,7 +21,7 @@ const Projects = () => {
             isTitle={true}
             isSubtitle={true}
             isText={true}
-            isProjectLink={true}
+            isProjectLink={false}
             isGithubLink={true}
             isViewCertificate={false}
             imgPath={project4}
@@ -30,7 +30,6 @@ const Projects = () => {
             title="Airbnb Clone"
             subtile="#NextJs #TailwindCss #MapBox #SSR"
             text="Airbnb application clone made with Next JS and styled with Tailwind CSS."
-            projectLink="https://airbnb-clone.sohamderoy.dev/"
             githubLink="https://github.com/sohamderoy/airbnb-clone-build"
           />
         </div>
@@ -40,7 +39,7 @@ const Projects = () => {
             isTitle={true}
             isSubtitle={true}
             isText={true}
-            isProjectLink={true}
+            isProjectLink={false}
             isGithubLink={true}
             isViewCertificate={false}
             imgPath={project1}
@@ -49,7 +48,6 @@ const Projects = () => {
             title="Developer Portfolio"
             subtile="#React #CssGrid #ResponsiveUi"
             text="A Software Developer Portfolio with clean design that will help to showcase ..."
-            projectLink="https://sohamderoy.dev"
             githubLink="https://github.com/sohamderoy/sohamderoy.github.io/tree/new-react-portfolio"
           />
         </div>
@@ -59,7 +57,7 @@ const Projects = () => {
             isTitle={true}
             isSubtitle={true}
             isText={true}
-            isProjectLink={true}
+            isProjectLink={false}
             isGithubLink={true}
             isViewCertificate={false}
             imgPath={project2}
@@ -68,7 +66,6 @@ const Projects = () => {
             title="todoapp"
             subtile="#React #BrowserLocalMemory"
             text="A todo Application, made with React. Uses local browser local memory ..."
-            projectLink="https://www.sohamderoy.dev/todoapp/"
             githubLink="https://github.com/sohamderoy/todoapp"
           />
         </div>
