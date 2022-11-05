@@ -48,7 +48,7 @@ const Projects = () => {
             title="Developer Portfolio"
             subtile="#React #CssGrid #ResponsiveUi"
             text="A Software Developer Portfolio with clean design that will help to showcase ..."
-            githubLink="https://github.com/sohamderoy/sohamderoy.github.io/tree/new-react-portfolio"
+            githubLink="https://github.com/sohamderoy/sohamderoy.github.io/tree/portfolio-2022"
           />
         </div>
         <div className="projects-card-3-wrapper">
