@@ -116,7 +116,7 @@ const Projects = () => {
         </div> */}
       </div>
       <Button
-        path="https://blogs.sohamderoy.dev/"
+        path="https://www.freecodecamp.org/news/author/sohamderoy"
         buttonType="button-primary"
         buttonText="Read More on freeCodeCamp"
       />

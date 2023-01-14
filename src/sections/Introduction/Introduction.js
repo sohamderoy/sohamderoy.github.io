@@ -126,7 +126,7 @@ const Introduction = () => {
           </div> */}
           <div className="introduction-buttons">
             <Button
-              path="https://blogs.sohamderoy.dev/"
+              path="https://www.freecodecamp.org/news/author/sohamderoy"
               buttonType="button-primary"
               buttonText="Blogs"
             />

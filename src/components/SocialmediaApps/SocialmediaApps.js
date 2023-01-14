@@ -26,7 +26,7 @@ const SocialmediaApps = () => {
       </a>
       <a
         target="_blank"
-        href="https://blogs.sohamderoy.dev/"
+        href="https://www.freecodecamp.org/news/author/sohamderoy"
         rel="noreferrer nofollow"
       >
         <img

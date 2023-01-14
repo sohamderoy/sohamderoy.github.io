@@ -52,9 +52,9 @@ const NavBar = () => {
       <HashLink className="nav-item nav-item-3" smooth to="/#experience-link">
         <h1>Experience</h1>
       </HashLink>
-      <HashLink className="nav-item nav-item-4" smooth to="/#projects-link">
+      {/* <HashLink className="nav-item nav-item-4" smooth to="/#projects-link">
         <h1>Projects</h1>
-      </HashLink>
+      </HashLink> */}
       {/* <HashLink className="nav-item nav-item-5" smooth to="/#certificate-link">
         <h1>Certificates</h1>
       </HashLink> */}
@@ -65,7 +65,7 @@ const NavBar = () => {
         className="nav-item nav-item-6"
         smooth
         to={{
-          pathname: "https://blogs.sohamderoy.dev/",
+          pathname: "https://www.freecodecamp.org/news/author/sohamderoy",
         }}
         target="_blank"
         rel="noreferrer nofollow"

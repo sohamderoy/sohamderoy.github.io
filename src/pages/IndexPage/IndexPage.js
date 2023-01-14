@@ -43,9 +43,9 @@ const IndexPage = () => {
         <div className="grid-prof-ex-wrapper">
           <ProfEx />
         </div>
-        <div className="grid-projects-wrapper">
+        {/* <div className="grid-projects-wrapper">
           <Projects />
-        </div>
+        </div> */}
         <div className="grid-certificates-wrapper">
           <Blogs />
         </div>
