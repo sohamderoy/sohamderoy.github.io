@@ -17,7 +17,7 @@ const Projects = () => {
       <div className="projects-wrapper">
         <div className="projects-card-1-wrapper">
           <PortfolioCard
-            isImg={true}
+            isImg={false}
             isTitle={true}
             isSubtitle={false}
             isText={false}
@@ -32,7 +32,7 @@ const Projects = () => {
         </div>
         <div className="projects-card-2-wrapper">
           <PortfolioCard
-            isImg={true}
+            isImg={false}
             isTitle={true}
             isSubtitle={false}
             isText={false}
@@ -47,7 +47,7 @@ const Projects = () => {
         </div>
         <div className="projects-card-3-wrapper">
           <PortfolioCard
-            isImg={true}
+            isImg={false}
             isTitle={true}
             isSubtitle={false}
             isText={false}
