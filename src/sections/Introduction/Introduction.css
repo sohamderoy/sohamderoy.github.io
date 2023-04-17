@@ -2,18 +2,18 @@
   font-size: 1.25rem;
   margin-top: 25px;
   margin-bottom: 25px;
-  font-family: "Montserrat";
+  font-family: "Outfit", sans-serif;
 }
 .intro-name {
   font-size: 4.5rem;
   line-height: 1.2;
-  font-family: "Montserrat";
+  font-family: "Outfit", sans-serif;
 }
 .intro-title {
   font-size: 23px;
   font-weight: 700;
   color: var(--ldhr-blue);
-  font-family: "Montserrat";
+  font-family: "Outfit", sans-serif;
 }
 .introduction-main-container {
   /* animation: fadeIn 1s ease-in; */
@@ -29,10 +29,10 @@ h3.intro-hello-text {
   font-size: 40px;
   font-weight: 900;
   transition: all 0.2s ease-out;
-  font-family: "Montserrat";
+  font-family: "Outfit", sans-serif;
 }
 .intro-hello-text > span {
-  font-family: "Montserrat";
+  font-family: "Outfit", sans-serif;
 }
 h3 {
   color: #5f6368;
@@ -73,7 +73,7 @@ p {
   line-height: 20px;
   color: #3b3b3b;
   margin-left: 10px;
-  font-family: "Montserrat";
+  font-family: "Outfit", sans-serif;
   letter-spacing: 0.45px;
 }
 .intro-skills-img {

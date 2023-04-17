@@ -58,12 +58,12 @@ img.education-wrapper-img {
 .education-degree {
   font-size: 1.25rem;
   color: #5f6368;
-  font-family: "Montserrat";
+  font-family: "Outfit", sans-serif;
 }
 .education-time {
   font-size: 0.95rem;
   color: #5f6368;
-  font-family: "Montserrat";
+  font-family: "Outfit", sans-serif;
 }
 @media only screen and (max-width: 877px) {
   .education-wrapper {

@@ -3,13 +3,13 @@ html {
 }
 
 code {
-  font-family: "Montserrat", source-code-pro, Menlo, Monaco, Consolas,
+  font-family: "Outfit", sans-serif, source-code-pro, Menlo, Monaco, Consolas,
     "Courier New", monospace;
 }
 body {
   margin: 0;
   scroll-behavior: smooth;
-  font-family: "Montserrat";
+  font-family: "Outfit", sans-serif;
 }
 :root {
   --ldhr-blue: #1662f5;
