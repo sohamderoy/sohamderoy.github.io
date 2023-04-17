@@ -2,49 +2,14 @@ html {
   scroll-behavior: smooth;
 }
 
-@font-face {
-  font-family: "Sofia Pro Bold";
-  font-display: swap;
-  src: url("./assets/fonts/Sofia-Pro-Bold-Az.otf") format("opentype");
-}
-@font-face {
-  font-family: "Sofia Pro ExtraLight";
-  font-display: swap;
-  src: url("./assets/fonts/Sofia-Pro-ExtraLight-Az.otf") format("opentype");
-}
-@font-face {
-  font-family: "Sofia Pro Light";
-  font-display: swap;
-  src: url("./assets/fonts/Sofia-Pro-Light-Az.otf") format("opentype");
-}
-@font-face {
-  font-family: "Sofia Pro Medium";
-  font-display: swap;
-  src: url("./assets/fonts/Sofia-Pro-Medium-Az.otf") format("opentype");
-}
-@font-face {
-  font-family: "Sofia Pro Regular";
-  font-display: swap;
-  src: url("./assets/fonts/Sofia-Pro-Regular-Az.otf") format("opentype");
-}
-@font-face {
-  font-family: "Sofia Pro SemiBold";
-  font-display: swap;
-  src: url("./assets/fonts/Sofia-Pro-SemiBold-Az.otf") format("opentype");
-}
-@font-face {
-  font-family: "Sofia Pro UltraLight";
-  font-display: swap;
-  src: url("./assets/fonts/Sofia-Pro-UltraLight-Az.otf") format("opentype");
-}
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: "Montserrat", source-code-pro, Menlo, Monaco, Consolas,
+    "Courier New", monospace;
 }
 body {
   margin: 0;
   scroll-behavior: smooth;
-  font-family: "Sofia Pro Regular";
+  font-family: "Montserrat";
 }
 :root {
   --ldhr-blue: #1662f5;

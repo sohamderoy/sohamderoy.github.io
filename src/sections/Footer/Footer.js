@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <div className="footer-wrapper">
       <h3 className="footer-text">
-        Designed & developed with{" "}
-        <img
+        Designed & developed with ❤️{" "}
+        {/* <img
           alt="❤️"
           draggable="false"
           src="https://twemoji.maxcdn.com/2/72x72/2764.png"
@@ -17,7 +17,7 @@ const Footer = () => {
             margin: "0px 0.05em 0px 0.1em",
             verticalAlign: "-0.1em",
           }}
-        />{" "}
+        />{" "} */}
         by{" "}
         <a className="footer-name-link" href="https://www.sohamderoy.dev">
           Soham De Roy

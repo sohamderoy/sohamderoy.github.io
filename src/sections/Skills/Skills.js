@@ -26,7 +26,7 @@ const Skills = () => {
     tooltip: {
       backgroundColor: theme.palette.common.black,
       fontSize: "1rem",
-      fontFamily: "Sofia Pro Regular",
+      fontFamily: "Montserrat",
     },
   }));
   function BootstrapTooltip(props) {
